@@ -1,0 +1,53 @@
+{
+   "chrome_store": {
+      "message": "Chrome应用商店"
+   },
+   "click_connect": {
+      "message": "点击连接"
+   },
+   "conflict_find": {
+      "message": "发现冲突"
+   },
+   "conflict_hint": {
+      "message": "您可以随时激活扩展"
+   },
+   "conflict_link": {
+      "message": "这里"
+   },
+   "conflict_message": {
+      "message": "被其他扩展插件占用了代理权限。禁用这些扩展并继续使用GG访问助手上网代理请点击继续按钮"
+   },
+   "connected": {
+      "message": "已连接"
+   },
+   "continue": {
+      "message": "继续"
+   },
+   "extDescription": {
+      "message": "免费自由访问谷歌和旗下网站，为您的浏览器提供100％免费和安全的服务。"
+   },
+   "extName": {
+      "message": "GG谷歌访问助手-免费访问Google服务"
+   },
+   "extShortName": {
+      "message": "GG谷歌访问助手"
+   },
+   "google_mail": {
+      "message": "Google邮箱"
+   },
+   "google_search": {
+      "message": "Google搜索"
+   },
+   "refresh": {
+      "message": "刷新"
+   },
+   "refresh_hint1": {
+      "message": "遇到问题?点击"
+   },
+   "refresh_hint2": {
+      "message": "服务器配置"
+   },
+   "visit": {
+      "message": "访问"
+   }
+}

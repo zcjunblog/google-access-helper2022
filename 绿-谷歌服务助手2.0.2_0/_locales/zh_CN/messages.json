@@ -1,0 +1,194 @@
+{
+   "about_us": {
+      "message": "关于我们"
+   },
+   "about_website": {
+      "message": "IGG官网"
+   },
+   "add_domain_to_proxy_list": {
+      "message": "将域名加到加速列表"
+   },
+   "agree_and_reader": {
+      "message": "我已阅读并同意"
+   },
+   "autofix_confirm_content": {
+      "message": "本工具将尝试自动修复导致IGG无法正常工作的问题及订单、用户信息未更新等故障。"
+   },
+   "autofix_confirm_title": {
+      "message": "确认执行修复"
+   },
+   "autofix_success": {
+      "message": "自动修复完成，如果还不能正常访问，请发工单联系客服。"
+   },
+   "autofixtool": {
+      "message": "故障修复工具"
+   },
+   "buy_button": {
+      "message": "支付"
+   },
+   "buy_vip": {
+      "message": "购买VIP"
+   },
+   "charge": {
+      "message": "充值"
+   },
+   "description": {
+      "message": "永久免费提供谷歌搜索，gmail，Chrome Store,Android/Golang等谷歌产品加速访问."
+   },
+   "domain_has_been_proxy": {
+      "message": "此域名已被加速"
+   },
+   "email_auth_code_error": {
+      "message": "邮件验证码不对哦"
+   },
+   "email_auth_send_ok": {
+      "message": "已发送"
+   },
+   "email_auth_send_ok_tips": {
+      "message": "邮件验证码发送完成，请注意检查收件箱或垃圾箱哦。"
+   },
+   "email_login": {
+      "message": "邮箱登录"
+   },
+   "email_logout": {
+      "message": "退出邮件登录"
+   },
+   "email_username_error": {
+      "message": "请填写正确的邮箱用户名"
+   },
+   "error_code": {
+      "message": "错误"
+   },
+   "error_network": {
+      "message": "无法连接到我们的数据中心."
+   },
+   "feedback": {
+      "message": "客服工单"
+   },
+   "firefox_proxy_error_tips": {
+      "message": "检测到插件《$1》可能与本APP存在冲突，请先将其禁用或者删除哦。"
+   },
+   "firefox_proxy_self_error_tips": {
+      "message": "PAC 模式冲突,请赋予本插件 隐私窗口运行权限修复冲突，否则插件可能无法正常工作。"
+   },
+   "fix_button": {
+      "message": "修复"
+   },
+   "fix_proxy_error_title": {
+      "message": "检测到异常插件"
+   },
+   "fix_proxy_per_tips": {
+      "message": "检测到有其他同类代理插件，因为浏览器只允许同时1个具有代理权限的插件工作,多个代理插件同时运行会导致本软件无法正常工作,点击 修复 自动修复冲突."
+   },
+   "get_email_auth_code": {
+      "message": "发送验证码"
+   },
+   "input_Invite_Code": {
+      "message": "邀请码(可选)"
+   },
+   "input_email_auth_code": {
+      "message": "邮件验证码"
+   },
+   "input_email_username": {
+      "message": "填写邮箱用户名"
+   },
+   "login_button_text": {
+      "message": "立即登录"
+   },
+   "main_curr_hostname": {
+      "message": "当前域名: "
+   },
+   "main_location": {
+      "message": "线路"
+   },
+   "main_mode": {
+      "message": "自动加速国外IP"
+   },
+   "mobileclient": {
+      "message": "手机/PC/MAC客户端"
+   },
+   "name": {
+      "message": "iGG谷歌访问助手"
+   },
+   "only_vip_tips": {
+      "message": "亲, 只有VIP 会员才可使用本功能哦."
+   },
+   "privacy_police": {
+      "message": "隐私协议"
+   },
+   "proxy_auth_error": {
+      "message": "代理服务器验证失效,您的VIP有可能已经过期了."
+   },
+   "proxy_domain_setting": {
+      "message": "加速域名设置"
+   },
+   "select_location": {
+      "message": "选择线路"
+   },
+   "service_police": {
+      "message": "用户协议"
+   },
+   "setting": {
+      "message": "设置"
+   },
+   "shortname": {
+      "message": "iGuge"
+   },
+   "success_title": {
+      "message": "成功"
+   },
+   "to_buy_vip": {
+      "message": "开通VIP"
+   },
+   "url_domain": {
+      "message": "mzkevpn.com"
+   },
+   "user_has_been_login": {
+      "message": "亲、您已经登录了哦。"
+   },
+   "user_level": {
+      "message": "会员等级"
+   },
+   "user_member_title": {
+      "message": "普通会员"
+   },
+   "user_type": {
+      "message": "会员类型"
+   },
+   "user_vip_title": {
+      "message": "VIP会员"
+   },
+   "username": {
+      "message": "账号"
+   },
+   "vip_expiry_date": {
+      "message": "有效期"
+   },
+   "vip_expiry_date_status": {
+      "message": "开通VIP"
+   },
+   "vpn_click_connect": {
+      "message": "点击连接"
+   },
+   "vpn_connected": {
+      "message": "已连接"
+   },
+   "vpn_mode_geoip_disable": {
+      "message": "已关闭"
+   },
+   "vpn_mode_geoip_enable": {
+      "message": "已开启"
+   },
+   "vpn_mode_global": {
+      "message": "全局模式"
+   },
+   "vpn_mode_pac": {
+      "message": "智能分流"
+   },
+   "vpn_must_select_server_tips": {
+      "message": "你必须先选择一个服务器哦"
+   },
+   "white_domain": {
+      "message": "自定义加速域名"
+   }
+}

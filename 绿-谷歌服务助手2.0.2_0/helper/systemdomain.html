@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>系统默认加速域名列表</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css" >
+    <link rel="stylesheet" href="../css/iguge_tpl.css" >
+    
+  </head>
+  <body>
+
+<main role="main" class="container">
+    <nav class="navbar navbar-light bg-light">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="bypassdomain.html">自定义直连域名 <span id="count_custom_bypassdomain" class="badge badge-light"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proxydomain.html">自定义加速域名 <span id="count_custom_proxydomain" class="badge badge-light"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="systemdomain.html">系统默认加速域名 <span id="count_system_proxydomain" class="badge badge-light"></span></a> 
+            </li>
+          </ul>
+      </nav>
+      
+  <div class="jumbotron" style="padding: 15px;">
+    <div class="alert alert-success" role="alert">
+        以下是系统默认的加速域名列表。如果您不想加速其中的某个域名，可将其自行添加至《自定义直连域名》列表。
+      </div>
+      <div class="alert alert-warning" role="alert">
+        不在此列表中的域名不代表不会被加速，系统会自动根据 geoip 来自动判断网站是否需要被加速。
+      </div>
+      <hr/>
+    
+    <table class="table  table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">域名</th>
+          </tr>
+        </thead>
+        <tbody id="mzk_domain_tbody_list">
+        </tbody>
+      </table>
+</main>
+
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/jquery.loading.min.js"></script>
+        <script src="../libs/jquery-confirm/js/jquery-confirm.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="js/systemdomain.js"></script>
+</html>

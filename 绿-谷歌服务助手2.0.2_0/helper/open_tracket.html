@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>发布工单</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css" >
+    <link rel="stylesheet" href="../css/iguge_tpl.css" >
+    <link rel="stylesheet" href="../libs/jquery-confirm/css/jquery-confirm.css">
+  </head>
+  <body>
+
+<main role="main" class="container">
+      
+  <div class="jumbotron" style="padding: 15px;">
+    <div id="notes"></div>    
+      <hr/>
+      
+      <div class="d-flex flex-row-reverse" style="margin-bottom: 10px;">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">接受工单回复的邮箱。</small>
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="curr_location">当前连接线路</label>
+                    <input id="curr_location" class="form-control" type="text" value="" readonly>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="contents">请描述问题</label>
+                <textarea class="form-control" id="contents" placeholder="反馈内容" style="margin: 0px 384px 0px 0px; width: 674px; height: 265px;"></textarea>
+              </div>
+           
+            <button type="button" id="submit_feedback" class="btn btn-primary">发布工单</button>
+
+            <button type="button" id="tracket_autofix" class="btn btn-success">无法正常访问外网? 点此自动修复</button>
+
+    </form>
+      </div>
+
+</main>
+
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/jquery.loading.min.js"></script>
+        <script src="../libs/jquery-confirm/js/jquery-confirm.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="js/tracket.js"></script>
+</html>

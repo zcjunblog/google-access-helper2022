@@ -1,0 +1,194 @@
+{
+   "about_us": {
+      "message": "About Us"
+   },
+   "about_website": {
+      "message": "IGG Website"
+   },
+   "add_domain_to_proxy_list": {
+      "message": "Add to Proxy List"
+   },
+   "agree_and_reader": {
+      "message": "I agree with"
+   },
+   "autofix_confirm_content": {
+      "message": "This tool will automatically attempt to repair the IGG can not work properly and order information does not take effect and other problems."
+   },
+   "autofix_confirm_title": {
+      "message": "AutoFix Tools"
+   },
+   "autofix_success": {
+      "message": "Fix done , If the fault still exists, please open ticket."
+   },
+   "autofixtool": {
+      "message": "AutoFix Tools"
+   },
+   "buy_button": {
+      "message": "Pay"
+   },
+   "buy_vip": {
+      "message": "Buy VIP"
+   },
+   "charge": {
+      "message": "Charge"
+   },
+   "description": {
+      "message": "Focus on Asia Pacific,We are focused on providing high-speed Internet acceleration services to the people of the asia-pacific region."
+   },
+   "domain_has_been_proxy": {
+      "message": "Pass by proxy"
+   },
+   "email_auth_code_error": {
+      "message": "Email Auth code Error"
+   },
+   "email_auth_send_ok": {
+      "message": "Send Success"
+   },
+   "email_auth_send_ok_tips": {
+      "message": "Success, Please Check Inbox."
+   },
+   "email_login": {
+      "message": "Email Login"
+   },
+   "email_logout": {
+      "message": "Logout Email"
+   },
+   "email_username_error": {
+      "message": "Email username Format Error."
+   },
+   "error_code": {
+      "message": "Error"
+   },
+   "error_network": {
+      "message": "We Can't Connect Out Cloud Server"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "firefox_proxy_error_tips": {
+      "message": "Detected Extension 《$1》 conflict, Please disable or delete it first."
+   },
+   "firefox_proxy_self_error_tips": {
+      "message": "PAC setting error,Please Allowed private Browsing permissions."
+   },
+   "fix_button": {
+      "message": "Fix"
+   },
+   "fix_proxy_error_title": {
+      "message": "Error detected"
+   },
+   "fix_proxy_per_tips": {
+      "message": "Error detected , App can't Setting you broswer! Click Fix button auto fix."
+   },
+   "get_email_auth_code": {
+      "message": "Get Code"
+   },
+   "input_Invite_Code": {
+      "message": "Invite code(optional)"
+   },
+   "input_email_auth_code": {
+      "message": "Auth code"
+   },
+   "input_email_username": {
+      "message": "Input Email Username"
+   },
+   "login_button_text": {
+      "message": "Login"
+   },
+   "main_curr_hostname": {
+      "message": "Domain: "
+   },
+   "main_location": {
+      "message": "Location"
+   },
+   "main_mode": {
+      "message": "Skip China IP/Domain"
+   },
+   "mobileclient": {
+      "message": "Mobile/PC/Mac"
+   },
+   "name": {
+      "message": "iGuge"
+   },
+   "only_vip_tips": {
+      "message": "Only VIP can use this feature"
+   },
+   "privacy_police": {
+      "message": "Privacy Policy"
+   },
+   "proxy_auth_error": {
+      "message": "Proxy Auth error , Your VIP may have expired."
+   },
+   "proxy_domain_setting": {
+      "message": "Proxy Domain List"
+   },
+   "select_location": {
+      "message": "Location"
+   },
+   "service_police": {
+      "message": "User agreement"
+   },
+   "setting": {
+      "message": "Setting"
+   },
+   "shortname": {
+      "message": "iGuge"
+   },
+   "success_title": {
+      "message": "Success"
+   },
+   "to_buy_vip": {
+      "message": "Buy VIP"
+   },
+   "url_domain": {
+      "message": "mzkevpn.com"
+   },
+   "user_has_been_login": {
+      "message": "You have logged in"
+   },
+   "user_level": {
+      "message": "Member level"
+   },
+   "user_member_title": {
+      "message": "member"
+   },
+   "user_type": {
+      "message": "Member Type"
+   },
+   "user_vip_title": {
+      "message": "VIP Member"
+   },
+   "username": {
+      "message": "Account"
+   },
+   "vip_expiry_date": {
+      "message": "Expiration"
+   },
+   "vip_expiry_date_status": {
+      "message": "Already expired"
+   },
+   "vpn_click_connect": {
+      "message": "Click connect"
+   },
+   "vpn_connected": {
+      "message": "Connected"
+   },
+   "vpn_mode_geoip_disable": {
+      "message": "Disable"
+   },
+   "vpn_mode_geoip_enable": {
+      "message": "Enable"
+   },
+   "vpn_mode_global": {
+      "message": "Global"
+   },
+   "vpn_mode_pac": {
+      "message": "PAC"
+   },
+   "vpn_must_select_server_tips": {
+      "message": "You must select loccation"
+   },
+   "white_domain": {
+      "message": "WhiteDomain"
+   }
+}

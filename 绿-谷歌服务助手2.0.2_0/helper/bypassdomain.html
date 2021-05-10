@@ -1,0 +1,69 @@
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>自定义直连域名</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css" >
+    <link rel="stylesheet" href="../css/iguge_tpl.css" >
+    <link rel="stylesheet" href="../libs/jquery-confirm/css/jquery-confirm.css">
+  </head>
+  <body>
+
+<main role="main" class="container">
+    <nav class="navbar navbar-light bg-light">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" href="bypassdomain.html">自定义直连域名 <span id="count_custom_bypassdomain" class="badge badge-light"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proxydomain.html">自定义加速域名 <span id="count_custom_proxydomain" class="badge badge-light"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="systemdomain.html">系统默认加速域名 <span id="count_system_proxydomain" class="badge badge-light"></span></a> 
+          </li>
+          </ul>
+      </nav>
+      
+  <div class="jumbotron" style="padding: 15px;">
+    <div class="alert alert-warning" role="alert">
+        以下列表中的域名将从本地直接链接，而不会经过加速服务器。默认情况下，我们会根据网站服务器IP地址自动判断进行分流，所以如果不是您熟悉的域名请不要随意添加。 增加/删除 以后,需要断开VPN，重新连接才会生效。
+      </div>
+      <hr/>
+      
+      <div class="d-flex flex-row-reverse" style="margin-bottom: 10px;">
+        <form class="form-inline">
+          <div class="form-group">
+              <small  class="text-muted">
+                  比如 www.youku.com 直接输入youku.com即可。
+                </small>
+            <input type="text" id="add_new_domain" name="add_new_domain" class="form-control mx-sm-1" placeholder="域名 如:youku.com" aria-describedby="passwordHelpInline">
+            <input type="text" name="new_remarks"  class="form-control mx-sm-1" id="add_new_remarks" placeholder="备注(可选)">
+          </div>
+          <button type="button" id="add_new_domain_button" class="btn btn-outline-success">新增域名</button>
+      </form>
+      </div>
+
+      <table class="table  table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">域名</th>
+            <th scope="col">备注</th>
+            <th scope="col">操作</th>
+          </tr>
+        </thead>
+        <tbody id="mzk_domain_tbody_list">
+        </tbody>
+      </table>
+</main>
+
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/jquery.loading.min.js"></script>
+        <script src="../libs/jquery-confirm/js/jquery-confirm.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="js/bypassdomain.js"></script>
+</html>

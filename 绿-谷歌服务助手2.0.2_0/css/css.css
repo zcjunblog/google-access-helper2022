@@ -1,0 +1,1057 @@
+#__bs_notify__ {
+  display: none !important;
+}
+
+body {
+     width: 325px;
+     height: 450px;
+}
+
+#mzk_back{
+    cursor: pointer;
+}
+.mobile-wrap {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  float: left;
+}
+.head {
+  width: 100%;
+  height: 0.55rem;
+  background-color: #32b16c;
+  position: relative;
+}
+.head h1 {
+  font-size: 0.2rem;
+  text-align: center;
+  color: #fff;
+  line-height: 0.55rem;
+  letter-spacing: 1px;
+}
+.head span.retu {
+  display: inline-block;
+  width: 0.14rem;
+  height: 0.2rem;
+  background: url("../img/2273c_13x20.png") center no-repeat;
+  position: absolute;
+  left: 0.2rem;
+  top: 50%;
+  margin-top: -0.1rem;
+}
+.prompt {
+  width: 100%;
+  height: 0.56rem;
+  border-bottom: 1px solid #d4d1d1;
+  background-color: #efedee;
+  padding: 0 0.2rem;
+  line-height: 0.56rem;
+  color: #666;
+}
+.prompt p {
+  font-size: 0.15rem;
+}
+.login {
+  width: 100%;
+  padding: 0 0.3rem;
+  padding-top: 0.22rem;
+}
+.login .login-form {
+  width: 100%;
+  display: table;
+  min-height: 1rem;
+}
+.login .login-form .login-box {
+  width: 100%;
+  height: 0.5rem;
+  border-bottom: 0.02rem solid #eef2f5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.login .login-form .login-box .login-ico {
+  width: 0.38rem;
+  height: 0.5rem;
+  padding-left: 0.08rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.login .login-form .login-box .login-ico img {
+  height: 0.18rem;
+}
+.login .login-form .login-box .login-input {
+  width: -webkit-calc(100% - 0.38rem);
+  width: calc(100% - 0.38rem);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.login .login-form .login-box .login-input .login-input-col {
+  width: 1.7rem;
+  height: 0.5rem;
+}
+.login .login-form .login-box .login-input .login-input-col input {
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.15rem;
+  color: #666;
+  letter-spacing: 0.5px;
+}
+.login .login-form .login-box .login-input .login-input-col input::-webkit-input-placeholder {
+  color: #a1b1c0;
+}
+.login .login-form .login-box .login-input .login-input-sele {
+  width: -webkit-calc(100% - 1.7rem);
+  width: calc(100% - 1.7rem);
+}
+.login .login-form .login-box .login-input .login-input-sele span {
+  line-height: 0.5rem;
+  font-size: 0.15rem;
+  color: #a1b1c0;
+}
+.login .login-form .login-box .login-input .login-input-sele i.btn {
+  display: inline-block;
+  width: 0.14rem;
+  height: 0.12rem;
+  background: url("../img/7da01_13x11.png") center no-repeat;
+  -webkit-background-size: 0.14rem 0.12rem;
+          background-size: 0.14rem 0.12rem;
+}
+.login .login-form .login-box .login-input .login-input-sele select {
+  width: 100%;
+  height: 0.5rem;
+  font-size: 0.15rem;
+  color: #a1b1c0;
+}
+.login .login-form .login-box .login-input .login-input-pass {
+  width: 100%;
+}
+
+.login .login-form .login-box .login-input button {
+  width: 150px;
+  height: 0.3rem;
+  background-color: #f65c54;
+  -webkit-border-radius: 0.23rem;
+          border-radius: 0.23rem;
+  color: #fff;
+  font-size: 0.1rem;
+  margin-top:10px;
+}
+
+.login .login-form .login-box .login-input .login-input-pass input {
+  width: 80%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.15rem;
+  margin-top: 0.1rem;
+}
+.login .login-form .login-box .login-input .login-input-pass input::-webkit-input-placeholder {
+  color: #a9b6c6;
+}
+.login .login-form .login-box:nth-child(2) .login-ico img {
+  height: 0.2rem;
+}
+.login .login-form .login-submit {
+  width: 100%;
+  padding: 0.22rem 0;
+}
+.login .login-form .login-submit button {
+  width: 100%;
+  height: 0.46rem;
+  background-color: #f65c54;
+  -webkit-border-radius: 0.23rem;
+          border-radius: 0.23rem;
+  color: #fff;
+  font-size: 0.15rem;
+}
+.login .login-form .login-agreement {
+  width: 100%;
+  text-align: center;
+  font-size: 0.14rem;
+  color: #333;
+}
+.login .login-form .login-agreement a {
+  color: #2672ec;
+}
+.user {
+  width: 100%;
+  background-color: #efedee;
+  border-bottom: 1px solid #d3d0d0;
+  padding: 0.12rem 0.2rem;
+}
+.user h2 {
+  font-size: 0.16rem;
+  color: #444;
+  line-height: 0.3rem;
+}
+.user p {
+  line-height: 0.22rem;
+  font-size: 0.14rem;
+  color: #333;
+}
+.package {
+  width: 100%;
+  padding: 0.12rem;
+}
+.package ul {
+  width: 100%;
+}
+.package ul li {
+  width: 100%;
+  border-bottom: 1px solid #d4d1d2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.package ul li .package-price {
+  width: 0.72rem;
+  height: 0.72rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.package ul li .package-price h4 {
+  text-align: center;
+  line-height: 0.22rem;
+  font-size: 0.18rem;
+  color: #f70000;
+  font-weight: bold;
+}
+.package ul li .package-price h6 {
+  line-height: 0.2rem;
+  font-size: 0.14rem;
+  color: #555;
+  margin: 0;
+  text-decoration: line-through;
+}
+.package ul li .package-inform {
+  width: -webkit-calc(100% - 0.72rem);
+  width: calc(100% - 0.72rem);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.package ul li .package-inform .package-inform-txt {
+  width: 2.15rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.72rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.package ul li .package-inform .package-inform-txt h4 {
+  line-height: 0.22rem;
+  font-size: 0.16rem;
+  color: #333;
+}
+.package ul li .package-inform .package-inform-txt p {
+  font-size: 0.14rem;
+  color: #3f3f3f;
+  line-height: 0.18rem;
+}
+.package ul li .package-inform .package-inform-btn {
+  width: -webkit-calc(100% - 2.15rem);
+  width: calc(100% - 2.15rem);
+  height: 0.72rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 0.1rem;
+}
+.package ul li .package-inform .package-inform-btn a {
+  display: inline-block;
+  width: 0.56rem;
+  height: 0.34rem;
+  color: #fff;
+  -webkit-border-radius: 0.05rem;
+          border-radius: 0.05rem;
+  background-color: #32b16c;
+  font-size: 0.15rem;
+  text-align: center;
+  line-height: 0.32rem;
+  border: 1px solid #0fa453;
+}
+.package ul li:hover {
+  background-color: #eeeced;
+}
+.package ul .active {
+  background-color: #eeeced;
+}
+.personal {
+  width: 100%;
+  display: table;
+}
+.personal .personal-inform {
+  width: 100%;
+  background-color: #efedee;
+  padding: 0.12rem 0.2rem;
+  border-bottom: 0.02rem solid #cecccd;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.personal .personal-inform .personal-inform-txt {
+  width: 2.7rem;
+  display: table;
+}
+.personal .personal-inform .personal-inform-txt p {
+  line-height: 0.24rem;
+  font-size: 0.14rem;
+  color: #555;
+}
+.personal .personal-inform .personal-inform-txt p em {
+  color: #2199ff;
+}
+.personal .personal-inform .personal-inform-btn {
+  width: -webkit-calc(100% - 2.7rem);
+  width: calc(100% - 2.7rem);
+  padding-top: 0.4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.personal .personal-inform .personal-inform-btn a {
+  display: inline-block;
+  width: auto;
+  height: 0.22rem;
+  background-color: #f65c54;
+  color: #fff;
+  font-size: 0.14rem;
+  text-align: center;
+  padding: 0 0.1rem;
+  line-height: 0.22rem;
+  -webkit-border-radius: 0.04rem;
+          border-radius: 0.04rem;
+}
+.personal .personal-list {
+  width: 100%;
+  display: table;
+  padding: 0 0.12rem;
+}
+.personal .personal-list ul {
+  width: 100%;
+}
+.personal .personal-list ul li {
+  width: 100%;
+  height: 0.55rem;
+  border-bottom: 1px solid #d4d1d2;
+  line-height: 0.55rem;
+  position: relative;
+  font-size: 0.15rem;
+  cursor: pointer;
+}
+.personal .personal-list ul li:hover {
+  background-color: #eeeced;
+}
+
+.personal .personal-list ul li i.more {
+  display: inline-block;
+  width: 0.12rem;
+  height: 0.2rem;
+  background: url("../img/more.png") center no-repeat;
+  -webkit-background-size: 0.12rem 0.2rem;
+          background-size: 0.12rem 0.2rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.1rem;
+}
+.record {
+  width: 100%;
+  padding: 0 0.1rem;
+}
+.record ul {
+  width: 100%;
+  padding-top: 0.1rem;
+}
+.record ul li {
+  width: 100%;
+  padding: 0.12rem 0;
+  border-bottom: 1px solid #cecccd;
+}
+.record ul li h4 {
+  line-height: 0.3rem;
+  font-size: 0.16rem;
+}
+.record ul li p {
+  line-height: 0.26rem;
+  font-size: 0.14rem;
+}
+.record ul li p span {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.about {
+  width: 100%;
+  display: table;
+  padding: 0 0.12rem;
+  padding-top: 0.25rem;
+}
+.about ul {
+  width: 100%;
+}
+.about ul li {
+  width: 100%;
+  height: 0.55rem;
+  border-bottom: 1px solid #d4d1d2;
+  line-height: 0.55rem;
+  position: relative;
+  font-size: 0.15rem;
+  cursor: pointer;
+}
+.about ul li i.more {
+  display: inline-block;
+  width: 0.12rem;
+  height: 0.2rem;
+  background: url("../img/5e0eb_12x20.png") center no-repeat;
+  -webkit-background-size: 0.12rem 0.2rem;
+          background-size: 0.12rem 0.2rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.1rem;
+}
+.line {
+  width: 100%;
+  padding: 0 0.1rem;
+}
+.line ul {
+  width: 100%;
+  padding: 0.1rem 0;
+}
+.line ul li {
+  width: 100%;
+  border-bottom: 1px solid #d5d3d4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.line ul li .line-img {
+  width: 0.5rem;
+  height: 0.55rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.line ul li .line-img img {
+  height: 0.36rem;
+}
+.line ul li .line-inform {
+  width: 100%;
+  height: 0.55rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.line ul li .line-inform .line-inform-txt {
+  height: 0.55rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+  cursor: pointer;
+}
+
+.line ul li .line-inform .line-inform-txt h4 {
+  line-height: 0.24rem;
+  font-size: 0.14rem;
+  color: #333;
+  padding-left: 10px;
+  font-weight: 700;
+}
+.line ul li .line-inform .line-inform-txt p {
+  font-size: 0.10rem;
+  line-height: 0.24rem;
+  padding-left: 10px;
+  color: #999999;
+}
+.line ul li .line-inform .line-inform-time {
+  width: -webkit-calc(100% - 2.1rem);
+  width: calc(100% - 2.1rem);
+  height: 0.55rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.16rem;
+}
+.line ul li .line-inform .line-inform-time span {
+  display: inline-block;
+  width: auto;
+  padding: 0 0.03rem;
+  height: 0.2rem;
+  color: #fff;
+  background-color: #32b16c;
+  line-height: 0.2rem;
+  font-size: 0.14rem;
+  -webkit-border-radius: 0.03rem;
+          border-radius: 0.03rem;
+}
+.line ul li .line-inform .line-inform-time i.refreshs {
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.2rem;
+  background: url("../img/adeab_27x23.png") center no-repeat;
+  -webkit-background-size: 0.24rem 0.2rem;
+          background-size: 0.24rem 0.2rem;
+  margin-left: 0.06rem;
+}
+.line ul li:hover {
+  background-color: #efedee;
+}
+.line ul .time2 .line-inform .line-inform-time span {
+  background-color: #ddbc0b;
+}
+.line ul .time3 .line-inform .line-inform-time span {
+  background-color: #fe0000;
+}
+.line ul .time4 .line-inform .line-inform-time span {
+  background-color: #929091;
+}
+.line ul .active {
+  background-color: #eeeced;
+}
+.language {
+  width: 100%;
+  display: table;
+  padding: 0 0.1rem;
+  padding-top: 0.1rem;
+}
+.language ul {
+  width: 100%;
+}
+.language ul li {
+  width: 100%;
+  height: 0.58rem;
+  border-bottom: 0.02rem solid #d5d2d3;
+  padding-left: 0.75rem;
+  line-height: 0.56rem;
+  font-size: 0.16rem;
+  color: #333;
+  position: relative;
+}
+.language ul .active {
+  background-color: #eeeced;
+}
+.language ul .active:after {
+  content: '';
+  position: absolute;
+  left: 0.3rem;
+  top: 50%;
+  margin-top: -0.1rem;
+  width: 0.2rem;
+  height: 0.2rem;
+  background: url("../img/fbccb_19x20.png") center no-repeat;
+  -webkit-background-size: 0.2rem 0.2rem;
+          background-size: 0.2rem 0.2rem;
+}
+.introduce {
+  width: 100%;
+  display: table;
+}
+.introduce .introduce-inform {
+  width: 100%;
+  background-color: #32b16c;
+  display: table;
+  padding-top: 0.14rem;
+  padding-bottom: 0.2rem;
+}
+.introduce .introduce-inform .introduce-logo {
+  width: 100%;
+  height: 0.46rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.introduce .introduce-inform .introduce-logo img {
+  height: 0.26rem;
+}
+.introduce .introduce-inform .introduce-txt {
+  width: 100%;
+  padding: 0 0.36rem;
+  padding-top: 0.24rem;
+}
+.introduce .introduce-inform .introduce-txt h4 {
+  line-height: 0.28rem;
+  font-size: 0.18rem;
+  color: #fff;
+}
+.introduce .introduce-inform .introduce-txt p {
+  color: #fff;
+  line-height: 0.28rem;
+  font-size: 0.16rem;
+}
+.introduce .introduce-inform .introduce-main {
+  width: 100%;
+  padding: 0.1rem;
+}
+.introduce .introduce-inform .introduce-main .introduce-main-col {
+  width: 100%;
+  background-color: #1f9656;
+  -webkit-border-radius: 0.05rem;
+          border-radius: 0.05rem;
+  line-height: 0.32rem;
+  font-size: 0.14rem;
+  color: #fff;
+  padding: 0.1rem 0.16rem;
+}
+.introduce .introduce-link {
+  width: 100%;
+  padding: 0 0.25rem;
+  padding-top: 0.48rem;
+}
+.introduce .introduce-link p {
+  padding: 0.06rem 0;
+}
+.introduce .introduce-link p a {
+  display: inline-block;
+  width: 100%;
+  height: 0.52rem;
+  background-color: #f65c54;
+  color: #fff;
+  font-size: 0.2rem;
+  text-align: center;
+  -webkit-border-radius: 0.06rem;
+          border-radius: 0.06rem;
+  line-height: 0.48rem;
+  border: 0.02rem solid #f5473d;
+  font-size: 0.18rem;
+  letter-spacing: 1px;
+}
+.introduce .introduce-link p .logins {
+  background-color: #fff;
+  color: #f5473d;
+}
+.introduce .introduce-link h6 {
+  margin: 0;
+  font-size: 0.15rem;
+  text-align: center;
+  line-height: 0.4rem;
+  color: #737373;
+  letter-spacing: 1px;
+}
+body.bgs {
+  background-color: #eee;
+}
+.heads {
+  width: 100%;
+  height: 0.58rem;
+  background-color: #32b16c;
+  position: relative;
+}
+.heads .heads-logos {
+  width: 100%;
+  height: 0.58rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.heads .heads-logos img {
+  height: 0.28rem;
+}
+
+.heads .heads-logos i {
+  color: white;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.heads span.set {
+  display: inline-block;
+  width: 0.28rem;
+  height: 0.24rem;
+  background: url("../img/14677_27x24.png") center no-repeat;
+  -webkit-background-size: 0.28rem 0.24rem;
+          background-size: 0.28rem 0.24rem;
+  position: absolute;
+  left: 0.15rem;
+  top: 50%;
+  margin-top: -0.12rem;
+  cursor: pointer;
+}
+
+.heads span.vips {
+  display: inline-block;
+  width: 0.28rem;
+  height: 0.26rem;
+  background: url("../img/bea64_27x26.png") center no-repeat;
+  -webkit-background-size: 0.28rem 0.26rem;
+          background-size: 0.28rem 0.26rem;
+  position: absolute;
+  right: 0.15rem;
+  top: 50%;
+  margin-top: -0.13rem;
+  cursor: pointer;
+}
+.switch {
+  width: 100%;
+  padding-bottom: 0.15rem;
+  background-color: #32b16c;
+}
+.switch .switch-col {
+  width: 100%;
+  height: 0.98rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.switch .switch-col .switch-main {
+  width: 1.3rem;
+  height: 0.6rem;
+  background-color: #fff;
+  -webkit-border-radius: 0.3rem;
+          border-radius: 0.3rem;
+  padding: 0.05rem;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.switch .switch-col .switch-main span {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 0.04rem solid #e7e5db;
+  background-color: #f94d4b;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 0 0.04rem 0.06rem rgba(51,51,51,0.2);
+          box-shadow: 0 0.04rem 0.06rem rgba(51,51,51,0.2);
+}
+
+.switch .switch-col .active span {
+  margin-left: 0.7rem;
+  background-color: #32b16c;
+}
+.switch .switch-txt {
+  width: 100%;
+  height: 0.24rem;
+  line-height: 0.24rem;
+  color: #fff;
+  font-size: 0.16rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.lists {
+  width: 100%;
+  display: table;
+  background-color: #fff;
+  padding: 0 0.1rem;
+  margin-bottom: 0.12rem;
+}
+.lists ul {
+  width: 100%;
+}
+.lists ul li {
+  width: 100%;
+  height: 0.58rem;
+  border-bottom: 0.02rem solid #d4d1d2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+.lists ul li .lists-ico {
+  width: 0.48rem;
+  height: 0.58rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.lists ul li .lists-ico img {
+  height: 0.3rem;
+}
+.lists ul li .lists-inform {
+  width: -webkit-calc(100% - 0.48rem);
+  width: calc(100% - 0.48rem);
+  height: 0.58rem;
+  line-height: 0.58rem;
+  font-size: 0.16rem;
+  cursor: pointer;
+}
+.lists ul li .lists-inform i.more {
+  display: inline-block;
+  width: 0.12rem;
+  height: 0.2rem;
+  background: url("../img/5e0eb_12x20.png") center no-repeat;
+  -webkit-background-size: 0.12rem 0.2rem;
+          background-size: 0.12rem 0.2rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.1rem;
+}
+.lists ul li:last-child {
+  border-bottom: none;
+}
+.downloads {
+    display: none;
+  width: 100%;
+  height: 0.52rem;
+  background-color: #fff;
+  margin-top: -0.12rem;
+  border-top: 0.02rem solid #d4d1d2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.downloads .downloads-box {
+  width: 50%;
+  height: 0.52rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.downloads .downloads-box:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -0.18rem;
+  width: 0.02rem;
+  height: 0.36rem;
+  background-color: #eae8e8;
+}
+.downloads .downloads-box img {
+  margin-right: 0.05rem;
+}
+.downloads .downloads-box span {
+  font-size: 0.16rem;
+  color: #039e48;
+}
+.downloads .downloads-box:last-child span {
+  color: #333;
+}
+.downloads .downloads-box:last-child:after {
+  display: none;
+}
+
+#add_curr_domain_button_div{
+    display: none;
+}
+.main_adddomain {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #fff;
+    padding-top: 10px;
+}
+.green_button {
+  width: 150px;
+  height: 0.3rem;
+  background-color: #5cb85c;
+  -webkit-border-radius: 0.23rem;
+          border-radius: 0.23rem;
+  color: #fff;
+  font-size: 0.1rem;
+  margin-top:10px;
+}
+
+.gray_button {
+  width: 150px;
+  height: 0.3rem;
+  background-color: #e5e5e5;
+  -webkit-border-radius: 0.23rem;
+          border-radius: 0.23rem;
+  color: #5cb85c;
+  font-size: 0.1rem;
+  margin-top:10px;
+}
+
+.main_adddomain {
+    font-size: 12px;
+}
+
+#mzk_curr_domain
+{
+    font-weight: bold;
+}
+
+.lang_email_login {
+  color: red;
+}

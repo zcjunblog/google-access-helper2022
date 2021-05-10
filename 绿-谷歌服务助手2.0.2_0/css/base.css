@@ -1,0 +1,66 @@
+body {
+    min-width: 320px;
+    background-color: #fff;
+    color: #777;
+    line-height: 1.6;
+}
+
+.header {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    letter-spacing: 0.05em;
+}
+
+.header h1{
+    font-size: 300%;
+    font-weight: 100;
+    margin: 0;
+}
+
+.header h2{
+    font-size: 125%;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 0;
+    color: #666;
+    letter-spacing: -0.02em;
+}
+.content {
+        margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 768px;
+}
+
+.footer {
+    font-size: 87.5%;
+    border-top: 1px solid #eee;
+    margin-top: 3.4286em;
+    padding: 1.1429em;
+    background: rgb(250, 250, 250);
+}
+
+.footer .legal{
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: 0.01em;
+}
+
+.button-delete {
+    background: rgb(202, 60, 60);
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/global.js", "js/jquery-1.11.1.js", "js/md5.js", "js/system.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "谷歌助手"
+   },
+   "content_scripts": [ {
+      "js": [ "js/jquery-1.11.1.js", "js/global.js", "js/content-script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' https://apis.google.com https://ssl.google-analytics.com https://*.yahoo.com https://suggestqueries.google.com https://www.gstatic.com https://drscdn.500px.org https://ppcdn.500px.org  https://*.vo.msecnd.net https://*.staticflickr.com 'unsafe-eval'; object-src 'self'",
+   "default_locale": "zh_CN",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp6vEjfFHip3gAvp3vA8LAeF2oNJlBof6aUuavhK30ONltnkAc2qzg8wmpLiCKMVt7D7IwJ/0WfAAoHfNo2Rz3pkChzagbzInTQSBpKIG44hEuZ3wfjSf/WaSdh3mhmWUUb1Qp4SNPPVALOvSThvk9nT89XBbRokobWPEmDFKsy3itpEfQ2e0q/BrjjPjYnUxs3396QSe8v7uVCYNVfjs4H65yMvW8PrA8LrG3+JTz/1NPVOtkgmtlIc/5DWmhq/hjuLOxNU7ssHepNMvrKmlytkg8XkeYi4buCy4Zm2q+3iOeXgnKXkzljeyvCUDK9fpBYUU5g4M5X/RUwhpaFSIBwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "proxy", "storage", "tabs", "management", "webRequest", "webRequestBlocking", "notifications", "\u003Call_urls>" ],
+   "short_name": "__MSG_extShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.1",
+   "web_accessible_resources": [ "nav.html", "footer.html", "updateNotify.html" ]
+}

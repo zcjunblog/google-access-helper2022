@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener(function(e,t,n){"setservername"==e.what&&$("#re2").text($("#re2").text()+e.name)}),setTimeout(function(){chrome.runtime.sendMessage({what:"getservername"})},15e3);
