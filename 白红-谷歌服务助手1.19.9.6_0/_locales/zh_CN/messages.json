@@ -1,0 +1,200 @@
+{
+   "check_proxy_config_body": {
+      "message": "\u003Cp class=\"alert alert-danger\"> 请检查您的浏览器扩展管理,停用其它代理插件.\u003Ca href=\"check.html\" class=\"btn btn-warning\">点击查看\u003C/a>\u003C/p>"
+   },
+   "check_proxy_config_title": {
+      "message": "注意:浏览器代理被其它扩展程序控制."
+   },
+   "copy_successful": {
+      "message": "复制成功"
+   },
+   "copyright": {
+      "message": "nodessl.com"
+   },
+   "description": {
+      "message": "谷歌浏览助手专门为学生、科研、外贸、跨境电商、海淘人员、开发人员服务的上网工具。可以解决chrome扩展无法自动更新的问题，访问谷歌google搜索，gmail邮箱，google+，golang等谷歌产品"
+   },
+   "error_button": {
+      "message": "点击这里"
+   },
+   "error_code": {
+      "message": "错误代码"
+   },
+   "error_network": {
+      "message": "无法连接到我们的数据中心."
+   },
+   "name": {
+      "message": "谷歌浏览助手"
+   },
+   "url_domain": {
+      "message": "nodessl.com"
+   },
+   "test_domain": {
+      "message": "你好世界"
+   },
+   "email_revc": {
+      "message": "收件人"
+   },
+   "email_subject": {
+      "message": "主题"
+   },
+   "network_out": {
+      "message": "带宽"
+   },
+   "account": {
+      "message": "账户"
+   },
+   "free_network_speed": {
+      "message": "免费网络速度"
+   },
+   "vip_network_speed": {
+      "message": "VIP网络速度"
+   },
+   "web_site_1": {
+      "message": "谷歌公司旗下一系列网站"
+   },
+   "web_site_2": {
+      "message": "GWF List 网站"
+   },
+   "web_site_3": {
+      "message": "自定义规则 + 全局模式"
+   },
+   "web_site": {
+      "message": "权限"
+   },
+   "system_message": {
+      "message": "System Message"
+   },
+   "free_network_traffic": {
+      "message": "免费网络流量"
+   },
+   "vip_network_traffic": {
+      "message": "VIP网络流量"
+   },
+   "no_limit": {
+      "message": "无限"
+   },
+   "enabel": {
+      "message": "开通"
+   },
+   "month": {
+      "message": "月"
+   },
+   "status": {
+      "message": "状态"
+   },
+   "traffic": {
+      "message": "流量"
+   },
+   "buy_now": {
+      "message": "现在购买"
+   },
+   "sgin_up": {
+      "message": "注册"
+   },
+   "login": {
+      "message": "登录"
+   },
+   "re_login": {
+      "message": "重新登陆"
+   },
+   "menu_user": {
+      "message": "用户"
+   },
+   "menu_setting": {
+      "message": "设置"
+   },
+   "menu_ticket": {
+      "message": "工单"
+   },
+   "route_setting": {
+      "message": "路由设置"
+   },
+   "or": {
+      "message": "或"
+   },
+   "202205": {
+      "message": "未来我们将限制免费用户的免费网络流量，现在注册，永久获得\"免费网络无限流量\"、\"GWF List网站访问权限\""
+   },
+   "open_vip": {
+      "message": "开通VIP"
+   },
+   "whitelist_mode": {
+      "message": "白名单模式"   
+   },
+   "whitelistDesc_mode": {
+      "message": "在白名单中的网站将不走代理"
+   },
+   "global_mode": {
+      "message": "全局模式"
+   },
+   "global_mode_desc": {
+      "message": "所有网站"
+   },
+   "custom_mode": {
+      "message": "自定义模式"
+   },
+   "custom_mode_desc": {
+      "message": "自定义规则"
+   },
+   "gwflist_mode": {
+      "message": "GWF List 模式"
+   },
+   "google_mode": {
+      "message": "Google 模式"
+   },
+   "proxy": {
+      "message": "Proxy"
+   },
+   "email_content": {
+      "message": "正文"
+   },
+   "email_content_1": {
+      "message": "在这里你可以开始描述你的问题..."
+   },
+   "ysubject": {
+      "message": "你的邮件主题"
+   },
+   "ticket_tit": {
+      "message": "请发送邮件给我们"
+   },
+   "ticket_tit2": {
+      "message": "我们将再48小时内回复你的问题"
+   },
+   "must_be": {
+      "message": "必须包含"
+   },
+   "balance": {
+      "message": "余额"
+   },
+   "network_error": {
+      "message": "network connect error"
+   },
+   "username_already_exists": {
+      "message": "用户名已经存在"
+   },
+   "error_3306": {
+      "message": "系统正忙，请稍后再试"
+   },
+   "addrule": {
+      "message": "添加自定义规则"
+   },
+   "popnevip": {
+      "message": "请开通VIP"
+   },
+   "success":{
+      "message":"成功"
+   },
+   "relogin":{
+      "message":"请重新登陆"
+   },
+   "restart_system_open_vip":{
+      "message":"即将重启插件，使得VIP生效"
+   },
+   "failed":{
+      "message":"失败"
+   },
+   "direct":{
+      "message":"直连"
+   }
+}
