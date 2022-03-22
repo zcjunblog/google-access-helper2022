@@ -1,0 +1,344 @@
+{
+   "badgeCheckHomeError": {
+      "message": "您还没有设置主页"
+   },
+   "badgeChecking": {
+      "message": "正在检查首页"
+   },
+   "badgeConfigError": {
+      "message": "扩展内部异常，请联系开发者"
+   },
+   "badgeConnectError": {
+      "message": "网络连接异常，稍后重试"
+   },
+   "badgeConnecting": {
+      "message": "网络连接中"
+   },
+   "badgeExpiredHomeError": {
+      "message": "连续使用24小时，需要重启检查首页才能生效"
+   },
+   "badgeInit": {
+      "message": "谷歌访问助手正在启动"
+   },
+   "badgeLogining": {
+      "message": "正在登录"
+   },
+   "badgeNeedLoginError": {
+      "message": "您需要登录才能使用"
+   },
+   "badgePause": {
+      "message": "谷歌访问助手已经暂停"
+   },
+   "badgeProxyBannedError": {
+      "message": "代理设置失败,请检查浏览器相关设置"
+   },
+   "badgeProxyConflictError": {
+      "message": "代理冲突，其他扩展占用了代理权限，请停止其他占用代理权限的扩展，然后重启"
+   },
+   "badgeProxying": {
+      "message": "正在获取线路"
+   },
+   "badgeRunning": {
+      "message": "谷歌服务正常访问中"
+   },
+   "extDesc": {
+      "message": "谷歌访问助手让你在任何地区都能畅快访问谷歌的各种服务，如谷歌搜索、翻译、Gmail邮箱...是你的必备扩展之一"
+   },
+   "extLoginBtnText": {
+      "message": "登录/注册"
+   },
+   "extLoginExplain1": {
+      "message": "登录即表示你同意《\u003Ca href='' target='_blank' data-skip='tos'>服务协议\u003C/a>》和《\u003Ca href='' target='_blank' data-skip='privacy'>隐私政策\u003C/a>》"
+   },
+   "extName": {
+      "message": "谷歌访问助手"
+   },
+   "extOnLoginText": {
+      "message": "登录中..."
+   },
+   "extShortDesc": {
+      "message": "让你正常访问各种谷歌服务"
+   },
+   "optionsActivePageButtomCloseText": {
+      "message": "关闭提示"
+   },
+   "optionsActivePageExplainText1": {
+      "message": "谷歌访问助手是免费的，但是需要你设置首页才能激活。激活后你将永久免费使用。点击下面按钮查看设置教程。设置成功后需要\u003Cspan style='font-weight:600'>重启浏览器弹出主页\u003C/span>才能生效。"
+   },
+   "optionsActivePageExplainText2": {
+      "message": "如果设置\u003Cspan style='color:red'>主页无效\u003C/span>， 可以在选项页中设置\u003Ca href='options.html' style='color:#1a73e8;'>自动打开主页\u003C/a>"
+   },
+   "optionsActivePageLookCourseBtn": {
+      "message": "查看设置教程"
+   },
+   "optionsActivePageTitle": {
+      "message": "谷歌访问助手需要激活"
+   },
+   "optionsCenterCheckPasswordTips": {
+      "message": "最少8个字符，需要大小写字母与数字组合"
+   },
+   "optionsCenterInputNewPasswordPlaceholder": {
+      "message": "最少8个字符，需要大小写字母与数字组合"
+   },
+   "optionsCenterInputNickPlaceholder": {
+      "message": "请输入昵称"
+   },
+   "optionsCenterInputRepPasswordPlaceholder": {
+      "message": "请再次输入密码"
+   },
+   "optionsCenterMustInputText": {
+      "message": "请输入"
+   },
+   "optionsCenterNewEmailText": {
+      "message": "新邮箱"
+   },
+   "optionsCenterNewPasswordText": {
+      "message": "新密码"
+   },
+   "optionsCenterNickText": {
+      "message": "昵称"
+   },
+   "optionsCenterOldEmailText": {
+      "message": "当前邮箱"
+   },
+   "optionsCenterRepPasswordText": {
+      "message": "重复密码"
+   },
+   "optionsCenterUpdateEmailText": {
+      "message": "修改邮箱"
+   },
+   "optionsCenterUpdateErrorTips1": {
+      "message": "两次密码输入不一致"
+   },
+   "optionsCenterUpdateInfoText": {
+      "message": "个人信息"
+   },
+   "optionsCenterUpdatePasswordText": {
+      "message": "修改密码"
+   },
+   "optionsCenterUpdateSuccessTips": {
+      "message": "修改成功"
+   },
+   "optionsCenterUpdateSuccessTips2": {
+      "message": "你已修改成功"
+   },
+   "optionsEmailAccountText": {
+      "message": "邮箱"
+   },
+   "optionsFreePerpetualUseText1": {
+      "message": "免费永久激活"
+   },
+   "optionsGetVerificationCodeFailure": {
+      "message": "验证码获取失败"
+   },
+   "optionsInfoPageAutoHomeText": {
+      "message": "自动打开要求的主页"
+   },
+   "optionsLoginEmailPlaceholder": {
+      "message": "请输入邮箱"
+   },
+   "optionsLoginEmailRegExpValues": {
+      "message": "请输入邮箱！"
+   },
+   "optionsLoginFailure": {
+      "message": "登录失败"
+   },
+   "optionsLoginVerificationCodePlaceholder": {
+      "message": "请输入验证码"
+   },
+   "optionsLoginVerificationCodeRegExpValues": {
+      "message": "请输入验证码！"
+   },
+   "optionsLoginVerificationPasswdPlaceholder": {
+      "message": "密码至少8位，含大小写字母和数字"
+   },
+   "optionsLoginVerificationPasswdRegExpValues": {
+      "message": "请输入密码!"
+   },
+   "optionsLoginViewFooterText": {
+      "message": "新用户首次登录自动注册"
+   },
+   "optionsPasswdText": {
+      "message": "密码"
+   },
+   "optionsSendVerificationCodeBtn": {
+      "message": "发送验证码"
+   },
+   "optionsSendVerificationCodeSuccess": {
+      "message": "验证码发送成功，请注意查收邮件"
+   },
+   "optionsUseCodeLoginText": {
+      "message": "使用验证码登录"
+   },
+   "optionsUsePasswdLoginText": {
+      "message": "使用密码登录"
+   },
+   "optionsVerificationCodeCountdownText1": {
+      "message": ""
+   },
+   "optionsVerificationCodeCountdownText2": {
+      "message": "秒后重试"
+   },
+   "optionsVerificationCodeText": {
+      "message": "验证码"
+   },
+   "optionsWelcomePageContent1": {
+      "message": "遇见需要运气，再遇更要勇气。感谢你在茫茫产品中坚定选择我们！一个小小的工具希望给你大大的惊喜。"
+   },
+   "optionsWelcomePageContent2": {
+      "message": "隐藏所有复杂的配置和操作。简洁友好的界面，新手也能马上学会。复杂麻烦的事情交给我们，你只需要体验产品的乐趣！"
+   },
+   "optionsWelcomePageContent3": {
+      "message": "帮助程序员、设计师、科研人员、学生、外贸工作者提高工作效率。十年如一日，稳定服务，让你比同行看得更多，效率更高。"
+   },
+   "optionsWelcomePageContent4": {
+      "message": "你有24小时免费试用时间，请点击下方按钮，按照说明免费激活。赶紧来体验吧~~"
+   },
+   "optionsWelcomePageContent5": {
+      "message": "你已登录成功，请点击下方按钮，按照说明免费激活，即可正常使用产品。"
+   },
+   "optionsWelcomePageTitle1": {
+      "message": "欢迎使用"
+   },
+   "optionsWelcomePageTitle2": {
+      "message": "开箱即用"
+   },
+   "optionsWelcomePageTitle3": {
+      "message": "效率利器"
+   },
+   "optionsWelcomePageTitle4": {
+      "message": "立即体验"
+   },
+   "popupAccessAssistantCloseText": {
+      "message": "谷歌访问助手已关闭，点击即可暂停恢复"
+   },
+   "popupAccessAssistantOpenText": {
+      "message": "谷歌访问助手已启动，点击即可暂停使用"
+   },
+   "popupAppName": {
+      "message": "谷歌访问助手"
+   },
+   "popupAssistantCloseText": {
+      "message": "谷歌访问助手已暂停"
+   },
+   "popupCheckingHomeError": {
+      "message": "您还没有设置主页"
+   },
+   "popupCloseText": {
+      "message": "关闭"
+   },
+   "popupExporeHomeError": {
+      "message": "连续使用24小时，需重启检查首页才能生效"
+   },
+   "popupFeedBackDefaultOption": {
+      "message": "功能/建议"
+   },
+   "popupFeedBackOption1": {
+      "message": "bug/异常"
+   },
+   "popupFeedBackOption2": {
+      "message": "其他"
+   },
+   "popupFeedBackTitle": {
+      "message": "意见反馈"
+   },
+   "popupFeedbackFailureMssage": {
+      "message": "反馈失败"
+   },
+   "popupFeedbackNullContentMessage": {
+      "message": "反馈内容不能为空"
+   },
+   "popupFeedbackPlaceholder": {
+      "message": "请输入你宝贵的意见"
+   },
+   "popupFeedbackSuccessMssage": {
+      "message": "反馈成功"
+   },
+   "popupFeedbackText": {
+      "message": "反馈"
+   },
+   "popupGoSettingBtnText": {
+      "message": "去设置"
+   },
+   "popupHelpText": {
+      "message": "帮助"
+   },
+   "popupHouseofhelloText": {
+      "message": "官网"
+   },
+   "popupInitConnectError": {
+      "message": "网络连接异常，稍后重试"
+   },
+   "popupIntConfigError": {
+      "message": "配置文件异常，请联系客服"
+   },
+   "popupLoadingChecking": {
+      "message": "正在检查首页"
+   },
+   "popupLoadingConnection": {
+      "message": "网络连接中"
+   },
+   "popupLoadingInit": {
+      "message": "正在启动"
+   },
+   "popupLoadingLogining": {
+      "message": "正在登录"
+   },
+   "popupLoadingProxying": {
+      "message": "正在获取路线"
+   },
+   "popupLoadingStart": {
+      "message": "加载中"
+   },
+   "popupLoginExplain2": {
+      "message": "新用户首次登录自动注册"
+   },
+   "popupNavClouldsHDD": {
+      "message": "云端硬盘"
+   },
+   "popupNavGmail": {
+      "message": "Gmail"
+   },
+   "popupNavMaps": {
+      "message": "谷歌地图"
+   },
+   "popupNavScholar": {
+      "message": "谷歌学术"
+   },
+   "popupNavSearch": {
+      "message": "搜索"
+   },
+   "popupNavTranslate": {
+      "message": "翻译"
+   },
+   "popupNoDescripText": {
+      "message": "暂无公告"
+   },
+   "popupOpenText": {
+      "message": "开启"
+   },
+   "popupRestartAssistantBtn": {
+      "message": "立即重启"
+   },
+   "popupRestartAssistantText": {
+      "message": "重启扩展会检查你设置的主页，请先打开主页"
+   },
+   "popupRestartCountdownText1": {
+      "message": "还有"
+   },
+   "popupRestartCountdownText2": {
+      "message": "重启..."
+   },
+   "popupRightNowRecoverBtnText": {
+      "message": "立即恢复"
+   },
+   "popupRightNowRestartBtnText": {
+      "message": "立即重启"
+   },
+   "popupSubmitBtn": {
+      "message": "提交"
+   },
+   "popupTryRestartBtnText": {
+      "message": "重启试试"
+   }
+}

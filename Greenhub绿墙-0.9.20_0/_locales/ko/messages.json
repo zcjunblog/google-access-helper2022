@@ -1,0 +1,22 @@
+{
+   "ghDesc": {
+      "description": "",
+      "message": "인터넷 스레드로부터 IP를 보호하고 비공개로 Chrome을 무료로 탐색할 수 있는 Greenhub 무료 VPN 프록시로 웹사이트 차단을 해제하세요."
+   },
+   "ghEdgeDesc": {
+      "description": "",
+      "message": "Unblock any website with the Greenhub VPN proxy that protects your IP and lets you browse privately for free For Edge."
+   },
+   "ghEdgeTitle": {
+      "description": "",
+      "message": "Greenhub Free VPN - Secure and Unblock VPN"
+   },
+   "ghTitle": {
+      "description": "",
+      "message": "Greenhub 무료 VPN - VPN 보안 및 차단 해제"
+   },
+   "magicName": {
+      "description": "",
+      "message": "Magic VPN - Best Free VPN for edge"
+   }
+}

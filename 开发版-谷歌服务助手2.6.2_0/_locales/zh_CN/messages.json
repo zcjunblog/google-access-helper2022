@@ -1,0 +1,32 @@
+{
+   "check_proxy_config_body": {
+      "message": "\u003Cp class=\"alert alert-danger\"> 请检查您的浏览器扩展管理,停用其它代理插件.\u003Ca href=\"check.html\" class=\"btn btn-warning\">点击查看\u003C/a>\u003C/p>"
+   },
+   "check_proxy_config_title": {
+      "message": "注意:浏览器代理被其它扩展程序控制."
+   },
+   "copy_successful": {
+      "message": "复制成功"
+   },
+   "copyright": {
+      "message": "googlehelper.net"
+   },
+   "description": {
+      "message": "专门为科研、外贸、跨境电商、海淘人员、开发人员服务的上网加速工具，chrome内核浏览器专用!可以解决chrome扩展无法自动更新的问题，同时可>以访问谷歌google搜索，gmail邮箱，google+等谷歌产品"
+   },
+   "error_button": {
+      "message": "点击这里"
+   },
+   "error_code": {
+      "message": "错误代码"
+   },
+   "error_network": {
+      "message": "无法连接到我们的数据中心."
+   },
+   "name": {
+      "message": "谷歌上网助手 开发版"
+   },
+   "url_domain": {
+      "message": "googlehelper.net"
+   }
+}

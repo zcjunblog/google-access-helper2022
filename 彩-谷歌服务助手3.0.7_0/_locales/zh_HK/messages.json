@@ -1,0 +1,364 @@
+{
+   "extName": {
+      "message": "谷歌訪問助手"
+   },
+   "extShortDesc": {
+      "message": "讓你正常訪問各種谷歌服務"
+   },
+   "extDesc": {
+      "message": "谷歌訪問助手讓你在任何地區都能暢快訪問谷歌的各種服務，如谷歌搜索、翻譯、Gmail郵箱...是你的必備擴展之一"
+   },
+   "badgePause":{
+      "message":"谷歌訪問助手已經暫停"
+   },
+   "badgeInit":{
+      "message":"谷歌訪問助手正在啟動"
+   },
+   "badgeConnecting":{
+      "message":"網絡連接中"
+   },
+   "badgeLogining":{
+      "message":"正在登錄"
+   },
+   "badgeChecking":{
+      "message":"正在檢查首頁"
+   },
+   "badgeProxying":{
+      "message":"正在獲取線路"
+   },
+   "badgeRunning":{
+      "message":"谷歌服務正常訪問中"
+   },
+   "badgeCheckHomeError":{
+      "message":"您還沒有設置主頁"
+   },
+   "badgeNeedLoginError":{
+      "message":"您需要登錄才能使用"
+   },
+   "badgeConnectError":{
+      "message":"網絡連接異常，稍後重試"
+   },
+   "badgeConfigError":{
+      "message":"擴展內部異常，請聯繫開發者"
+   },
+   "badgeExpiredHomeError":{
+      "message":"連續使用24小時，需要重啟檢查首頁才能生效"
+   },
+   "badgeProxyConflictError":{
+      "message":"代理衝突，其他擴展佔用了代理權限，請停止其他佔用代理權限的擴展，然後重啓"
+   },
+   "badgeProxyBannedError":{
+      "message":"代理設置失敗,請檢查瀏覽器相關設置"
+   },
+   "extLoginBtnText": {
+      "message": "登錄/註冊"
+   },
+   "extOnLoginText": {
+      "message": "登錄中..."
+   },
+   "popupGoSettingBtnText": {
+      "message": "去設置"
+   },
+   "popupTryRestartBtnText": {
+      "message": "重啟試試"
+   },
+   "popupRightNowRestartBtnText": {
+      "message": "立即重啟"
+   },
+   "popupRelationServiceBtnText": {
+      "message": "聯繫客服"
+   },
+   "popupRightNowRecoverBtnText": {
+      "message": "立即恢復"
+   },
+
+   "extLoginExplain1": {
+      "message": "登錄即表示你同意《<a href='' target='_blank' data-skip='tos'>服務協議</a>》和《<a href='' target='_blank' data-skip='privacy'>私隱政策</a>》"
+   },
+   "popupLoginExplain2": {
+      "message": "新用戶首次登錄自動註冊"
+   },
+
+   "popupLoadingStart": {
+      "message": "加載中"
+   },
+   "popupLoadingInit": {
+      "message": "正在啟動"
+   },
+   "popupLoadingConnection": {
+      "message": "網絡連接中"
+   },
+   "popupLoadingLogining": {
+      "message": "正在登錄"
+   },
+   "popupLoadingChecking": {
+      "message": "正在檢查首頁"
+   },
+   "popupLoadingProxying": {
+      "message": "正在獲取路線"
+   },
+   
+   "popupCheckingHomeError": {
+      "message": "您還沒有設置主頁"
+   },
+   "popupInitConnectError": {
+      "message": "網絡連接異常，稍後重試"
+   },
+   "popupIntConfigError": {
+      "message": "配置文件異常，請聯繫客服"
+   },
+   "popupExporeHomeError": {
+      "message": "連續使用24小時，需重啟檢查首頁才能生效"
+   },
+
+
+   "popupNavGmail": {
+      "message": "Gmail"
+   },
+   "popupNavScholar": {
+      "message": "谷歌學術"
+   },
+   "popupNavClouldsHDD": {
+      "message": "雲端硬盤"
+   },
+   "popupNavTranslate": {
+      "message": "翻譯"
+   },
+   "popupNavMaps": {
+      "message": "谷歌地圖"
+   },
+   "popupNavSearch": {
+      "message": "搜索"
+   },
+
+   "popupHouseofhelloText": {
+      "message": "官網"
+   },
+   "popupHelpText": {
+      "message": "幫助"
+   },
+   "popupFeedbackText": {
+      "message": "反饋"
+   },
+   "popupAccessAssistantCloseText": {
+      "message": "谷歌訪問助手已關閉，點擊即可暫停恢復"
+   },
+   "popupAccessAssistantOpenText": {
+      "message": "谷歌訪問助手已啟動，點擊即可暫停使用"
+   },
+   "popupAssistantCloseText": {
+      "message": "谷歌訪問助手已暫停"
+   },
+   "popupCloseText": {
+      "message": "關閉"
+   },
+   "popupOpenText": {
+      "message": "開啟"
+   },
+   
+   "popupRestartAssistantText": {
+      "message": "重啟擴展會檢查你設置的主頁，請先打開主頁"
+   },
+   "popupRestartAssistantBtn": {
+      "message": "立即重啟"
+   },
+
+   "popupFeedBackTitle": {
+      "message": "意見反饋"
+   },
+   "popupFeedBackDefaultOption": {
+      "message": "功能/建議"
+   },
+   "popupFeedBackOption1": {
+      "message": "bug/異常"
+   },
+   "popupFeedBackOption2": {
+      "message": "其他"
+   },
+   "popupSubmitBtn": {
+      "message": "提交"
+   },
+   "popupNoDescripText": {
+      "message": "暫無公告"
+   },
+   "popupRestartCountdownText1": {
+      "message": "還有"
+   },
+   "popupRestartCountdownText2": {
+      "message": "重啟..."
+   },
+
+   "popupFeedbackNullContentMessage": {
+      "message": "反饋內容不能為空"
+   },
+   "popupFeedbackSuccessMssage": {
+      "message": "反馈成功"
+   },
+   "popupFeedbackFailureMssage": {
+      "message": "反饋失敗"
+   },
+   "popupFeedbackPlaceholder":{
+      "message":"請輸入你寶貴的意見"
+   },
+
+
+   "optionsEmailAccountText": {
+      "message": "電子郵箱"
+   },
+   "optionsLoginEmailPlaceholder":{
+      "message":"請輸入郵箱"
+   },
+   "optionsLoginEmailRegExpValues":{
+      "message":"請輸入郵箱！"
+   },
+   "optionsLoginVerificationCodePlaceholder":{
+      "message":"請輸入驗證碼"
+   },
+   "optionsLoginVerificationCodeRegExpValues":{
+      "message":"請輸入驗證碼！"
+   },
+   "optionsVerificationCodeText": {
+      "message": "驗證碼"
+   },
+   "optionsSendVerificationCodeBtn": {
+      "message": "發送驗證碼"
+   },
+   "optionsLoginViewFooterText": {
+      "message": "新用戶首次登錄自動註冊"
+   },
+   "optionsVerificationCodeCountdownText1":{
+      "message":""
+   },
+   "optionsVerificationCodeCountdownText2": {
+      "message": "秒後重試"
+   },
+   "optionsGetVerificationCodeFailure": {
+      "message": "驗證碼獲取失敗"
+   },
+   "optionsSendVerificationCodeSuccess": {
+      "message": "驗證碼發送成功，請注意查收郵件"
+   },
+   "optionsLoginFailure": {
+      "message": "登錄失敗"
+   },
+
+   "optionsWelcomePageTitle1": {
+      "message": "歡迎使用"
+   },
+   "optionsWelcomePageTitle2": {
+      "message": "開箱即用"
+   },
+   "optionsWelcomePageTitle3": {
+      "message": "效率利器"
+   },
+   "optionsWelcomePageTitle4": {
+      "message": "立即體驗"
+   },
+
+   "optionsWelcomePageContent1": {
+      "message": "遇見需要運氣，再遇更要勇氣。感謝你在茫茫產品中堅定選擇我們！一個小小的工具希望給你大大的驚喜。"
+   },
+   "optionsWelcomePageContent2": {
+      "message": "隱藏所有複雜的配置和操作。簡潔友好的界面，新手也能馬上學會。複雜麻煩的事情交給我們，你只需要體驗產品的樂趣！"
+   },
+   "optionsWelcomePageContent3": {
+      "message": "幫助程序員、設計師、科研人員、學生、外貿工作者提高工作效率。十年如一日，穩定服務，讓你比同行看得更多，效率更高。"
+   },
+   "optionsWelcomePageContent4": {
+      "message": "你有24小時免費試用時間，請點擊下方按鈕，按照說明免費激活。趕緊來體驗吧~~"
+   },
+   "optionsWelcomePageContent5": {
+      "message": "你已登錄成功，請點擊下方按鈕，按照說明免費激活，即可正常使用產品。"
+   },
+
+   "optionsFreePerpetualUseText1": {
+      "message": "免費永久激活"
+   },
+
+   "optionsActivePageTitle": {
+      "message": "谷歌訪問助手需要激活"
+   },
+   "optionsActivePageExplainText1": {
+      "message": "谷歌助手是免費的，但是需要你設置首頁才能激活。激活後你將永久免費使用。點擊下麵按鈕查看設置教程。設置成功後需要<span style='font-weight:600'>重啟瀏覽器彈出主頁</span>才能生效。"
+   },
+   "optionsActivePageExplainText2": {
+      "message": "如果設置<span style='color:red'>主頁無效</span>，可以在選項頁中設置<a href='options.html' style='color:#1a73e8;'>自動打開主頁</a>"
+   },
+   "optionsActivePageLookCourseBtn": {
+      "message": "查看設置教程"
+   },
+   "optionsInfoPageAutoHomeText":{
+      "message": "自動開啟要求的主頁"
+   },
+   "optionsActivePageButtomCloseText":{
+      "message": "關閉提示"
+   },
+
+
+
+   
+   "optionsUsePasswdLoginText":{
+      "message": "使用密碼登錄"
+   },
+   "optionsUseCodeLoginText":{
+      "message": "使用驗證碼登錄"
+   },
+   "optionsPasswdText":{
+      "message": "密碼"
+   },
+   "optionsLoginVerificationPasswdPlaceholder":{
+      "message": "請輸入密碼"
+   },
+   "optionsLoginVerificationPasswdRegExpValues":{
+      "message": "請輸入密碼!"
+   },
+
+   "optionsCenterUpdatePasswordText":{
+      "message": "修改密碼"
+   },
+   "optionsCenterUpdateEmailText":{
+      "message": "修改郵箱"
+   },
+   "optionsCenterUpdateInfoText":{
+      "message": "個人信息"
+   },
+   "optionsCenterNewPasswordText":{
+      "message": "新密碼"
+   },
+   "optionsCenterRepPasswordText":{
+      "message": "重複密碼"
+   },
+   "optionsCenterNewEmailText":{
+      "message": "新郵箱"
+   },
+   "optionsCenterOldEmailText":{
+      "message": "舊郵箱"
+   },
+   "optionsCenterNickText":{
+      "message": "暱稱"
+   },
+   "optionsCenterInputNewPasswordPlaceholder":{
+      "message": "請輸入新密碼"
+   },
+   "optionsCenterInputRepPasswordPlaceholder":{
+      "message": "請再次輸入密碼"
+   },
+   "optionsCenterInputNickPlaceholder":{
+      "message": "請輸入暱稱"
+   },
+   "optionsCenterCheckPasswordTips":{
+      "message": "最少8個字符，需要大小寫字母與數字組合"
+   },
+   "optionsCenterUpdateSuccessTips":{
+      "message":"修改成功"
+   },
+   "optionsCenterMustInputText":{
+      "message":"請輸入"
+   },
+   "optionsCenterUpdateErrorTips1":{
+      "message":"兩次密碼輸入不一致"
+   },
+   "optionsCenterUpdateSuccessTips2":{
+      "message":"你已修改成功"
+   }
+}

@@ -1,0 +1,55 @@
+{
+   "errorIdNotForm": {
+      "description": "Error message thrown when the given `id` isn't a form element.",
+      "message": "Element with ID `$1` isn't a form element."
+   },
+   "errorIdNotFound": {
+      "description": "Error message thrown when the given `id` doesn't exist",
+      "message": "Element with ID `$1` doesn't exist in the document"
+   },
+   "errorNoExtensionAccess": {
+      "description": "Error message displayed when `levelOfControl` is 'not_controllable'.",
+      "message": "Sorry. This browser's proxy settings cannot be controlled via extensions."
+   },
+   "errorOtherExtensionControls": {
+      "description": "Error message displayed when `levelOfControl` is 'controlled_by_other_extensions'.",
+      "message": "Sorry. This browser's proxy settings are being controlled by another extension. Please visit chrome://extensions for details."
+   },
+   "errorPopupTitle": {
+      "description": "Error message used as popup title.",
+      "message": "Error: $1"
+   },
+   "errorProxyDetailedError": {
+      "description": "Error message displayed in popup when an error occurs.",
+      "message": "ProxyError: $1. $2."
+   },
+   "errorProxyError": {
+      "description": "Error message displayed in popup when an error occurs.",
+      "message": "ProxyError: $1."
+   },
+   "errorSettingIncognitoProxy": {
+      "description": "Error message, displayed when failing to set incognito proxy settings.",
+      "message": "Setting incognito proxy settings failed.  Sorry!"
+   },
+   "errorSettingRegularProxy": {
+      "description": "Error message, displayed when failing to set regular proxy settings.",
+      "message": "Setting regular proxy settings failed.  Sorry!"
+   },
+   "extDescription": {
+      "message": "帮助访问被封锁的谷歌和旗下网站。代理服务器稳定，VPN原理，HTTPS级别加密，确保通信安全。"
+   },
+   "extName": {
+      "message": "PP谷歌访问助手-为国出征-国庆版"
+   },
+   "extShortName": {
+      "message": "谷歌助手"
+   },
+   "headerDirectConnection": {
+      "description": "Header for 'Direct Connection' configuration `fieldset`.",
+      "message": "Direct Connection"
+   },
+   "successfullySetProxy": {
+      "description": "Success message, displayed after proxy settings have been written.",
+      "message": "Your proxy settings have been saved successfully; this window will close automagically. Have a nice day!"
+   }
+}

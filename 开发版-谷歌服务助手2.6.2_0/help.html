@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>  </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/common.css" rel="stylesheet">
+</head>
+
+<body>
+ <div class="container">
+    <div>
+       <h3> 无法连接数据中心. </h3>
+       <ul>
+          <li>1.请先检查您的网络是否能正常访问公共网络.</li>
+          <li>2. 如果出现错误代码为: 0 , 可能是本地DNS问题, 可以重启一下网络环境或重新安装插件,一般就会好了.</li>
+         <li>3. 如果出现错误代码为:50x 可能是服务器出现了错误，你可以过一段再试试，一般这种错误最长不会超过一小时.原因可能是我们在升级服务器.</li>
+        <li>4. 检查一下插件是否为最新版本.从2020年开始，我们将启用2.x以上的版本.1.4.x的版本将会慢慢下架.2.0版本更加安全稳定.</li>
+        <li> 错误代码为 0, 这个问题是由本地DNS绶存导至的。解决办法:
+<p>windows: 用“WIN +Ｒ”快捷键打开运行窗口，输入“cmd”命令，进行命令行窗口。
+在命令行窗口输入“ipconfig /flushdns”执行，刷新本地的DNS缓存数据。</p>
+<p>MAC OS: 
+在终端命令行下输入: sudo killall -HUP mDNSResponder 回车后,输入用户密码就行了.
+</p>
+</li>
+         <li>6.如果还是不行, 可以试试换个浏览器，或重新安装浏览器,在我们官网有 Edge (WINDOWS10 自带浏览器), Firefox 的应用商店链接. </li>
+        <li>7. 我们的官网: http://googlehelper.net</li>
+       </ul>
+    </div>
+</div>
+</body>
+</html>

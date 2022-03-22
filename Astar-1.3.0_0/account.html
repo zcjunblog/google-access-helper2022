@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>Astar VPN</title> 
+  <link rel="shortcut icon" type="image/png" href="/img/32.png" /> 
+  <link rel="stylesheet" href="/astar_files/font.css" /> 
+  <link rel="stylesheet" href="./astar_files/index.css" /> 
+  <link href="./astar_files/pricing-1.css" rel="stylesheet" type="text/css" /> 
+  <link href="./astar_files/plugins.bundle.css" rel="stylesheet" type="text/css" /> 
+  <link href="./astar_files/style.bundle.css" rel="stylesheet" type="text/css" /> 
+  <style type="text/css">.vue-form-wizard .wizard-btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 12px;font-size:14px;line-height:1.42857;border-radius:4px}.vue-form-wizard .wizard-btn.disabled,.vue-form-wizard .wizard-btn[disabled],fieldset[disabled] .vue-form-wizard .wizard-btn{cursor:not-allowed;opacity:.65;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none}.vue-form-wizard *{-webkit-box-sizing:border-box;box-sizing:border-box}.vue-form-wizard a{text-decoration:none}.vue-form-wizard .wizard-nav{margin-bottom:0;padding-left:0;list-style:none}.vue-form-wizard .wizard-nav>li{position:relative;display:block}.vue-form-wizard .wizard-nav>li>a{position:relative;display:block;padding:10px 15px}.vue-form-wizard .wizard-nav>li>a:focus,.vue-form-wizard .wizard-nav>li>a:hover{text-decoration:none;background-color:#eee}.vue-form-wizard .wizard-nav>li.disabled>a{color:#777}.vue-form-wizard .wizard-nav>li.disabled>a:focus,.vue-form-wizard .wizard-nav>li.disabled>a:hover{color:#777;text-decoration:none;background-color:transparent;cursor:not-allowed}.vue-form-wizard .wizard-progress-bar{float:left;width:0;height:100%;font-size:12px;line-height:20px;color:#fff;text-align:center;background-color:#337ab7;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,.15);box-shadow:inset 0 -1px 0 rgba(0,0,0,.15);-webkit-transition:width .6s ease;transition:width .6s ease}.vue-form-wizard .navbar .navbar-nav>li>a.wizard-btn,.vue-form-wizard .wizard-btn{-webkit-box-sizing:border-box;box-sizing:border-box;border-width:2px;background-color:transparent;font-size:14px;font-weight:600;padding:6px 12px;min-width:140px}.vue-form-wizard .navbar .navbar-nav>li>a.wizard-btn:focus,.vue-form-wizard .navbar .navbar-nav>li>a.wizard-btn:hover,.vue-form-wizard .wizard-btn:focus,.vue-form-wizard .wizard-btn:hover{outline:0!important}.vue-form-wizard .wizard-nav-pills{margin-top:0;position:relative;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.vue-form-wizard .wizard-nav-pills a,.vue-form-wizard .wizard-nav-pills li{-webkit-box-flex:1;-ms-flex:1;flex:1;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-positive:1;flex-grow:1}.vue-form-wizard .wizard-nav-pills>li>a,.vue-form-wizard .wizard-nav-pills a{display:-webkit-box;display:-ms-flexbox;display:flex}.vue-form-wizard .wizard-nav-pills>li>a{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding:0;margin:0 auto;color:rgba(0,0,0,.2);position:relative;top:3px}.vue-form-wizard .wizard-nav-pills>li>a:focus,.vue-form-wizard .wizard-nav-pills>li>a:hover{background-color:transparent;color:rgba(0,0,0,.2);outline:0!important}.vue-form-wizard .wizard-nav-pills>li>a.disabled{pointer-events:none;cursor:default}.vue-form-wizard .wizard-nav-pills>li.active>a,.vue-form-wizard .wizard-nav-pills>li.active>a:focus,.vue-form-wizard .wizard-nav-pills>li.active>a:hover{background-color:transparent;-webkit-transition:font-size .2s linear;transition:font-size .2s linear}.vue-form-wizard .wizard-nav-pills>li.active>a .wizard-icon,.vue-form-wizard .wizard-nav-pills>li.active>a:focus .wizard-icon,.vue-form-wizard .wizard-nav-pills>li.active>a:hover .wizard-icon{color:#fff;font-size:24px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-transition:all .2s linear;transition:all .2s linear}.vue-form-wizard{padding-bottom:20px}.vue-form-wizard .is_error{border-color:#c84513!important}.vue-form-wizard .is_error .icon-container{background:#c84513!important}.vue-form-wizard.xs .wizard-icon-circle{width:40px;height:40px;font-size:16px}.vue-form-wizard.xs .wizard-icon-circle.tab_shape{height:25px}.vue-form-wizard.xs .wizard-nav-pills>li.active>a .wizard-icon{font-size:16px}.vue-form-wizard.xs .wizard-navigation .wizard-progress-with-circle{position:relative;top:25px;height:4px}.vue-form-wizard.sm .wizard-icon-circle{width:50px;height:50px;font-size:20px}.vue-form-wizard.sm .wizard-icon-circle.tab_shape{height:30px}.vue-form-wizard.sm .wizard-nav-pills>li.active>a .wizard-icon{font-size:20px}.vue-form-wizard.sm .wizard-navigation .wizard-progress-with-circle{position:relative;top:30px;height:4px}.vue-form-wizard.md .wizard-icon-circle{width:70px;height:70px;font-size:24px}.vue-form-wizard.md .wizard-icon-circle.tab_shape{height:40px}.vue-form-wizard.md .wizard-nav-pills>li.active>a .wizard-icon{font-size:24px}.vue-form-wizard.md .wizard-navigation .wizard-progress-with-circle{position:relative;top:40px;height:4px}.vue-form-wizard.lg .wizard-icon-circle{width:90px;height:90px;font-size:28px}.vue-form-wizard.lg .wizard-icon-circle.tab_shape{height:50px}.vue-form-wizard.lg .wizard-nav-pills>li.active>a .wizard-icon{font-size:28px}.vue-form-wizard.lg .wizard-navigation .wizard-progress-with-circle{position:relative;top:50px;height:4px}.vue-form-wizard .wizard-icon-circle{font-size:18px;border:3px solid #f3f2ee;border-radius:50%;font-weight:600;width:70px;height:70px;background-color:#fff;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center}.vue-form-wizard .wizard-icon-circle.square_shape{border-radius:0}.vue-form-wizard .wizard-icon-circle.tab_shape{width:100%;min-width:100px;height:40px;border:none;background-color:#f3f2ee;border-radius:0}.vue-form-wizard .wizard-icon-circle .wizard-icon-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-flex:1;-ms-flex:1;flex:1;border-radius:40%}.vue-form-wizard .wizard-icon-circle .wizard-icon-container.square_shape,.vue-form-wizard .wizard-icon-circle .wizard-icon-container.tab_shape{border-radius:0}.vue-form-wizard .wizard-icon-circle .wizard-icon{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.vue-form-wizard .wizard-tab-content{min-height:100px;padding:30px 20px 10px}.vue-form-wizard .wizard-header{padding:15px;position:relative;border-radius:3px 3px 0 0;text-align:center}.vue-form-wizard .wizard-title{color:#252422;font-weight:300;margin:0;text-align:center}.vue-form-wizard .category{font-size:14px;font-weight:400;color:#9a9a9a;margin-bottom:0;text-align:center}.vue-form-wizard .wizard-navigation .wizard-progress-with-circle{position:relative;top:40px;height:4px}.vue-form-wizard .wizard-navigation .wizard-progress-with-circle .wizard-progress-bar{-webkit-box-shadow:none;box-shadow:none;-webkit-transition:width .3s ease;transition:width .3s ease}.vue-form-wizard .clearfix:after{content:"";clear:both;display:table}.vue-form-wizard .wizard-card-footer{padding:0 20px}.vue-form-wizard .wizard-card-footer .wizard-footer-left{float:left}.vue-form-wizard .wizard-card-footer .wizard-footer-right{float:right}@media screen and (max-width:350px){.vue-form-wizard .wizard-card-footer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.vue-form-wizard .wizard-card-footer .wizard-footer-left,.vue-form-wizard .wizard-card-footer .wizard-footer-right{float:none;-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.vue-form-wizard .wizard-card-footer .wizard-footer-right button{margin-top:10px}}.vue-form-wizard.vertical .wizard-card-footer{display:block}.vue-form-wizard.vertical .wizard-nav-pills{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.vue-form-wizard.vertical .wizard-navigation{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.vue-form-wizard.vertical .wizard-card-footer{padding-top:30px}</style>
+  <script src="/js/jquery-2.1.1.js"></script>
+  <script src="/js/jquery.i18.js"></script>
+  <script src="/js/account.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+ </head> 
+ <body class="kt-header--fixed kt-header--minimize-topbar kt-header-mobile--fixed kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-subheader--enabled kt-subheader--transparent"> 
+  
+  <div id="app">
+   <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
+    <div class="kt-header-mobile__brand">
+     <a href="#" class="kt-header-mobile__logo"><img alt="Logo" src="/img/128.png" width="80" /></a>
+    </div> 
+    <div class="kt-header-mobile__toolbar">
+     <button id="kt_header_mobile_toggler" class="kt-header-mobile__toolbar-toggler"><span></span></button> 
+     <button id="kt_header_mobile_topbar_toggler" class="kt-header-mobile__toolbar-topbar-toggler"><i class="flaticon-more-1"></i></button>
+    </div>
+   </div> 
+   <div class="kt-grid kt-grid--hor kt-grid--root">
+    <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
+     <div id="kt_wrapper" class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper ">
+      <div id="kt_header" data-ktheader-minimize="on" class="kt-header kt-grid__item  kt-header--fixed ">
+       <div class="kt-header__top">
+        <div class="kt-container ">
+         <div id="kt_header_brand" class="kt-header__brand   kt-grid__item">
+          <div class="kt-header__brand-logo">
+           <a href="#"><img alt="Logo" src="/img/128.png" width="64" /></a>
+          </div>
+
+          <div style="margin-left: 400px;">
+            <h1>Astar VPN <span i18n="i18n.personalCenter">Personal Center</span></h1>
+           </div>
+         </div> 
+
+         <div class="kt-header__topbar">
+          <div class="kt-header__topbar-item kt-header__topbar-item--user">
+           <div data-toggle="dropdown" data-offset="10px,10px" class="kt-header__topbar-wrapper">
+            <span class="kt-hidden kt-header__topbar-welcome"></span> 
+            <span class="kt-hidden kt-header__topbar-username"></span> 
+           </div> 
+           <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-xl">
+            <div class="kt-user-card kt-user-card--skin-light kt-notification-item-padding-x">
+             <div class="kt-user-card__avatar">
+              <span class="kt-badge kt-badge--username kt-badge--unified-primary kt-badge--lg kt-badge--rounded kt-badge--bold">  </span>
+             </div> 
+             <div class="kt-user-card__name" id="loginAccount">
+             </div>
+            </div> 
+           
+           </div>
+          </div>
+         </div>
+        </div>
+       </div> 
+       <div class="kt-header__bottom" style="background-color: #46c3ff">
+        <div class="kt-container ">
+         <button id="kt_header_menu_mobile_close_btn" class="kt-header-menu-wrapper-close"><i class="la la-close"></i></button> 
+         <div id="kt_header_menu_wrapper" class="kt-header-menu-wrapper" style="opacity: 1;">
+          <div id="kt_header_menu" class="kt-header-menu kt-header-menu-mobile ">
+          
+          </div>
+         </div>
+        </div>
+       </div>
+      </div> 
+      <div id="kt_body" class="kt-body kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-grid--stretch">
+       <div id="kt_content" class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor">
+        <div id="kt_subheader" class="kt-subheader kt-grid__item">
+         
+        </div> 
+        <div class="kt-container kt-grid__item kt-grid__item--fluid">
+         <div class="kt-grid kt-grid--desktop kt-grid--ver kt-grid--ver-desktop kt-app">
+          <button id="kt_user_profile_aside_close" class="kt-app__aside-close"><i class="la la-close"></i></button> 
+          <div id="kt_user_profile_aside" class="kt-grid__item kt-app__toggle kt-app__aside" style="opacity: 1;">
+           <div class="kt-portlet">
+            <div class="kt-portlet__body">
+             <div class="kt-widget kt-widget--user-profile-1">
+              <div class="kt-widget__head">
+               <div class="kt-widget__media">
+                <img id="vip_img_user" src="/img/v3.jpg" style="width: 95px;height: 60px; display: none;" alt="">
+               </div> 
+               <div class="kt-widget__content">
+                <div class="kt-widget__section">
+                 <a href="#" class="kt-widget__username" id="emailAccount"> </a> 
+                 <div class="kt-widget__button">
+                  <span class="btn btn-label-success btn-sm"><span i18n="i18n.Active">VIP</span></span>
+                 </div>
+                </div>
+               </div>
+              </div> 
+
+              <div class="kt-widget__body">
+               <div class="kt-widget__items">
+                <a href="#" class="kt-widget__item kt-widget__item--active" id="account-href" name="tab_href"><span class="kt-widget__section"><span class="kt-widget__icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1" class="kt-svg-icon">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                     <polygon points="0 0 24 0 24 24 0 24"></polygon> 
+                     <path d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"></path> 
+                     <path d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                   </svg></span> <span class="kt-widget__desc" id="accountInfoShow"> <span i18n="i18n.personalInformation">Personal Information</span> </span></span></a> 
+                <a href="#" class="kt-widget__item " id="password-href" name="tab_href"><span class="kt-widget__section"><span class="kt-widget__icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1" class="kt-svg-icon">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                     <rect x="0" y="0" width="24" height="24"></rect> 
+                     <path d="M4,4 L11.6314229,2.5691082 C11.8750185,2.52343403 12.1249815,2.52343403 12.3685771,2.5691082 L20,4 L20,13.2830094 C20,16.2173861 18.4883464,18.9447835 16,20.5 L12.5299989,22.6687507 C12.2057287,22.8714196 11.7942713,22.8714196 11.4700011,22.6687507 L8,20.5 C5.51165358,18.9447835 4,16.2173861 4,13.2830094 L4,4 Z" fill="#000000" opacity="0.3"></path> 
+                     <path d="M12,11 C10.8954305,11 10,10.1045695 10,9 C10,7.8954305 10.8954305,7 12,7 C13.1045695,7 14,7.8954305 14,9 C14,10.1045695 13.1045695,11 12,11 Z" fill="#000000" opacity="0.3"></path> 
+                     <path d="M7.00036205,16.4995035 C7.21569918,13.5165724 9.36772908,12 11.9907452,12 C14.6506758,12 16.8360465,13.4332455 16.9988413,16.5 C17.0053266,16.6221713 16.9988413,17 16.5815,17 C14.5228466,17 11.463736,17 7.4041679,17 C7.26484009,17 6.98863236,16.6619875 7.00036205,16.4995035 Z" fill="#000000" opacity="0.3"></path>
+                    </g>
+                   </svg></span> <span class="kt-widget__desc" id="changePassword"> <span i18n="i18n.changePassword">Change Password</span></span></span></a> 
+                <a href="#" class="kt-widget__item " id="recharge-href" name="tab_href"><span class="kt-widget__section"><span class="kt-widget__icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1" class="kt-svg-icon">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                     <rect x="0" y="0" width="24" height="24"></rect> 
+                     <rect fill="#000000" x="2" y="5" width="19" height="4" rx="1"></rect> 
+                     <rect fill="#000000" opacity="0.3" x="2" y="11" width="19" height="10" rx="1"></rect>
+                    </g>
+                   </svg></span> <span class="kt-widget__desc" id="Recharge"> <span i18n="i18n.recharge">Recharge</span> </span></span></a> 
+                <a href="#" class="kt-widget__item " id="rechargeRecord-href" name="tab_href"><span class="kt-widget__section"><span class="kt-widget__icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1" class="kt-svg-icon">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                     <polygon points="0 0 24 0 24 24 0 24"></polygon> 
+                     <path d="M12.9336061,16.072447 L19.36,10.9564761 L19.5181585,10.8312381 C20.1676248,10.3169571 20.2772143,9.3735535 19.7629333,8.72408713 C19.6917232,8.63415859 19.6104327,8.55269514 19.5206557,8.48129411 L12.9336854,3.24257445 C12.3871201,2.80788259 11.6128799,2.80788259 11.0663146,3.24257445 L4.47482784,8.48488609 C3.82645598,9.00054628 3.71887192,9.94418071 4.23453211,10.5925526 C4.30500305,10.6811601 4.38527899,10.7615046 4.47382636,10.8320511 L4.63,10.9564761 L11.0659024,16.0730648 C11.6126744,16.5077525 12.3871218,16.5074963 12.9336061,16.072447 Z" fill="#000000" fill-rule="nonzero"></path> 
+                     <path d="M11.0563554,18.6706981 L5.33593024,14.122919 C4.94553994,13.8125559 4.37746707,13.8774308 4.06710397,14.2678211 C4.06471678,14.2708238 4.06234874,14.2738418 4.06,14.2768747 L4.06,14.2768747 C3.75257288,14.6738539 3.82516916,15.244888 4.22214834,15.5523151 C4.22358765,15.5534297 4.2250303,15.55454 4.22647627,15.555646 L11.0872776,20.8031356 C11.6250734,21.2144692 12.371757,21.2145375 12.909628,20.8033023 L19.7677785,15.559828 C20.1693192,15.2528257 20.2459576,14.6784381 19.9389553,14.2768974 C19.9376429,14.2751809 19.9363245,14.2734691 19.935,14.2717619 L19.935,14.2717619 C19.6266937,13.8743807 19.0546209,13.8021712 18.6572397,14.1104775 C18.654352,14.112718 18.6514778,14.1149757 18.6486172,14.1172508 L12.9235044,18.6705218 C12.377022,19.1051477 11.6029199,19.1052208 11.0563554,18.6706981 Z" fill="#000000" opacity="0.3"></path>
+                    </g>
+                   </svg></span> <span class="kt-widget__desc" id="rechargeRecord"> <span i18n="i18n.rechargeRecord">Recharge Record</span> </span></span> </a> 
+                <a href="#" class="kt-widget__item " id="messageNotification-href" name="tab_href"><span class="kt-widget__section"><span class="kt-widget__icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1" class="kt-svg-icon">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                     <rect x="0" y="0" width="24" height="24"></rect> 
+                     <path d="M6,2 L18,2 C18.5522847,2 19,2.44771525 19,3 L19,12 C19,12.5522847 18.5522847,13 18,13 L6,13 C5.44771525,13 5,12.5522847 5,12 L5,3 C5,2.44771525 5.44771525,2 6,2 Z M7.5,5 C7.22385763,5 7,5.22385763 7,5.5 C7,5.77614237 7.22385763,6 7.5,6 L13.5,6 C13.7761424,6 14,5.77614237 14,5.5 C14,5.22385763 13.7761424,5 13.5,5 L7.5,5 Z M7.5,7 C7.22385763,7 7,7.22385763 7,7.5 C7,7.77614237 7.22385763,8 7.5,8 L10.5,8 C10.7761424,8 11,7.77614237 11,7.5 C11,7.22385763 10.7761424,7 10.5,7 L7.5,7 Z" fill="#000000" opacity="0.3"></path> 
+                     <path d="M3.79274528,6.57253826 L12,12.5 L20.2072547,6.57253826 C20.4311176,6.4108595 20.7436609,6.46126971 20.9053396,6.68513259 C20.9668779,6.77033951 21,6.87277228 21,6.97787787 L21,17 C21,18.1045695 20.1045695,19 19,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,6.97787787 C3,6.70173549 3.22385763,6.47787787 3.5,6.47787787 C3.60510559,6.47787787 3.70753836,6.51099993 3.79274528,6.57253826 Z" fill="#000000"></path>
+                    </g>
+                   </svg></span> <span class="kt-widget__desc" id="messageNotification"> <span i18n="i18n.messageNotification">Message notification</span> </span></span> <span class="kt-badge kt-badge--brand kt-badge--inline kt-badge--pill kt-badge--rounded" id="notice_number"> 0 </span> </a>
+                <a href="#" class="kt-widget__item " id="informationFeedback-href" name="tab_href"><span class="kt-widget__section"><span class="kt-widget__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1" class="kt-svg-icon">
+                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect x="0" y="0" width="24" height="24"></rect> 
+                      <path d="M6,2 L18,2 C18.5522847,2 19,2.44771525 19,3 L19,12 C19,12.5522847 18.5522847,13 18,13 L6,13 C5.44771525,13 5,12.5522847 5,12 L5,3 C5,2.44771525 5.44771525,2 6,2 Z M7.5,5 C7.22385763,5 7,5.22385763 7,5.5 C7,5.77614237 7.22385763,6 7.5,6 L13.5,6 C13.7761424,6 14,5.77614237 14,5.5 C14,5.22385763 13.7761424,5 13.5,5 L7.5,5 Z M7.5,7 C7.22385763,7 7,7.22385763 7,7.5 C7,7.77614237 7.22385763,8 7.5,8 L10.5,8 C10.7761424,8 11,7.77614237 11,7.5 C11,7.22385763 10.7761424,7 10.5,7 L7.5,7 Z" fill="#000000" opacity="0.3"></path> 
+                      <path d="M3.79274528,6.57253826 L12,12.5 L20.2072547,6.57253826 C20.4311176,6.4108595 20.7436609,6.46126971 20.9053396,6.68513259 C20.9668779,6.77033951 21,6.87277228 21,6.97787787 L21,17 C21,18.1045695 20.1045695,19 19,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,6.97787787 C3,6.70173549 3.22385763,6.47787787 3.5,6.47787787 C3.60510559,6.47787787 3.70753836,6.51099993 3.79274528,6.57253826 Z" fill="#000000"></path>
+                     </g>
+                    </svg></span> <span class="kt-widget__desc" id="informationFeedback"> <span i18n="i18n.informationFeedback">Information feedback</span> </span></span></a>
+
+                <a href="#" class="kt-widget__item " id="SubscribeEmail-href" name="tab_href"><span class="kt-widget__section"><span class="kt-widget__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1" class="kt-svg-icon">
+                      <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <rect x="0" y="0" width="24" height="24"></rect> 
+                      <path d="M6,2 L18,2 C18.5522847,2 19,2.44771525 19,3 L19,12 C19,12.5522847 18.5522847,13 18,13 L6,13 C5.44771525,13 5,12.5522847 5,12 L5,3 C5,2.44771525 5.44771525,2 6,2 Z M7.5,5 C7.22385763,5 7,5.22385763 7,5.5 C7,5.77614237 7.22385763,6 7.5,6 L13.5,6 C13.7761424,6 14,5.77614237 14,5.5 C14,5.22385763 13.7761424,5 13.5,5 L7.5,5 Z M7.5,7 C7.22385763,7 7,7.22385763 7,7.5 C7,7.77614237 7.22385763,8 7.5,8 L10.5,8 C10.7761424,8 11,7.77614237 11,7.5 C11,7.22385763 10.7761424,7 10.5,7 L7.5,7 Z" fill="#000000" opacity="0.3"></path> 
+                      <path d="M3.79274528,6.57253826 L12,12.5 L20.2072547,6.57253826 C20.4311176,6.4108595 20.7436609,6.46126971 20.9053396,6.68513259 C20.9668779,6.77033951 21,6.87277228 21,6.97787787 L21,17 C21,18.1045695 20.1045695,19 19,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,6.97787787 C3,6.70173549 3.22385763,6.47787787 3.5,6.47787787 C3.60510559,6.47787787 3.70753836,6.51099993 3.79274528,6.57253826 Z" fill="#000000"></path>
+                      </g>
+                    </svg></span> <span class="kt-widget__desc" id="SubscribeEmail"> <span i18n="i18n.subscribeToEmail">Subscribe To Email</span> </span></span></a>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div> 
+
+          <div class="kt-grid__item kt-grid__item--fluid kt-app__content" id="accountInfo" name="message_div">
+           <div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+            <div class="row">
+             <div class="col-xl-12">
+              <div class="kt-portlet kt-portlet--height-fluid">
+               <div class="kt-portlet__head">
+                <div class="kt-portlet__head-label">
+                 <h3 class="kt-portlet__head-title"><span i18n="i18n.personalInformation">Personal Information</span></h3>
+                </div>
+               </div> 
+               <form class="kt-form kt-form--label-right">
+                <div class="kt-portlet__body">
+                 <div class="kt-section kt-section--first">
+                  <div class="kt-section__body">
+                   <div class="form-group row">
+                    <label for="email" class="col-xl-3 col-lg-3 col-form-label"><span i18n="i18n.email">Email</span></label> 
+                    <div class="col-lg-9 col-xl-6">
+                     <input type="text" name="email" id="email"  value="" class="form-control " disabled />
+                    </div>
+                   </div> 
+                   <div class="form-group row">
+                    <label for="time" class="col-xl-3 col-lg-3 col-form-label"><span i18n="i18n.time">Time</span></label> 
+                    <div class="col-lg-9 col-xl-6">
+                     <input type="text" name="time" id="time" value="0分钟" class="form-control " disabled />
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </div> 
+                <div class="kt-portlet__foot">
+                 <div class="kt-form__actions">
+                  <div class="row">
+                   <div class="col-lg-3 col-xl-3"></div> 
+                   <div class="col-lg-9 col-xl-9">
+                    <button type="button" class="btn btn-brand btn-bold" id="RechargeSubmit"><span i18n="i18n.recharge">Recharge</span></button>&nbsp; 
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </form>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+
+          <div class="kt-grid__item kt-grid__item--fluid kt-app__content" id="changePasswordDiv" style="display: none" name="message_div">
+            <div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+             <div class="row">
+              <div class="col-xl-12">
+               <div class="kt-portlet kt-portlet--height-fluid">
+                <div class="kt-portlet__head">
+                 <div class="kt-portlet__head-label">
+                  <h3 class="kt-portlet__head-title"><span i18n="i18n.changePassword">Change Password</span></h3>
+                 </div>
+                </div> 
+                <form class="kt-form kt-form--label-right">
+                 <div class="kt-portlet__body">
+                  <div class="kt-section kt-section--first">
+                   <div class="kt-section__body">
+                    <div class="form-group row">
+                      <div class="col-lg-9 col-xl-6">
+                       <input required type="password" class="form-control" placeholder="Old Password" id="change-password-old">
+                      </div>
+                     </div> 
+                    <div class="form-group row">
+                     <div class="col-lg-9 col-xl-6">
+                      <input required type="password" class="form-control" placeholder="New Password" id="change-password">
+                     </div>
+                    </div> 
+                    <div class="form-group row">
+                     <div class="col-lg-9 col-xl-6">
+                      <input required type="password" class="form-control" placeholder="New Password Confirmation" id="change-password-confirmation">
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div> 
+                 <div class="kt-portlet__foot">
+                  <div class="kt-form__actions">
+                   <div class="row">
+                    <div class="col-lg-3 col-xl-3"></div> 
+                    <div class="col-lg-9 col-xl-9">
+                     <button type="button" class="btn btn-brand btn-bold" id="changePasswordSubmit"><span i18n="i18n.submit">Submit</span></button>&nbsp; 
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </form>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+           <div class="kt-grid__item kt-grid__item--fluid kt-app__content" id="rechargeRecordDiv" style="display: none" name="message_div">
+            <div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+             <div class="row">
+              <div class="col-xl-12">
+               <div class="kt-portlet kt-portlet--height-fluid">
+                <div class="kt-portlet__head">
+                 <div class="kt-portlet__head-label">
+                  <h3 class="kt-portlet__head-title"><span i18n="i18n.rechargeRecord">Recharge Record</span></h3>
+                 </div>
+                </div> 
+
+                 <div class="kt-portlet__body">
+                  <div class="kt-section kt-section--first">
+                   <div class="kt-section__body">
+
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th scope="col"><span i18n="i18n.transactionNumber">Transaction Number</span></th>
+                          <th scope="col"><span i18n="i18n.price">Price</span></th>
+                          <th scope="col"><span i18n="i18n.status">Status</span></th>
+                          <th scope="col"><span i18n="i18n.recordTime">Time</span></th>
+                        </tr>
+                      </thead>
+                      <tbody id="record_table">
+                       
+                      </tbody>
+                    </table>
+
+                   </div>
+                  </div>
+                 </div> 
+                 
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+
+           <div class="kt-grid__item kt-grid__item--fluid kt-app__content" id="messageNotificationDiv" style="display: none" name="message_div">
+            <div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+             <div class="row">
+              <div class="col-xl-12">
+               <div class="kt-portlet kt-portlet--height-fluid">
+                <div class="kt-portlet__head">
+                 <div class="kt-portlet__head-label">
+                  <h3 class="kt-portlet__head-title"><span i18n="i18n.messageNotification">Message Notification</span></h3>
+                 </div>
+                </div> 
+
+                 <div class="kt-portlet__body">
+                  <div class="kt-section kt-section--first">
+                   <div class="kt-section__body">
+
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th scope="col"><span i18n="i18n.message">Message</span></th>
+                          <th scope="col"><span i18n="i18n.messTime">Time</span></th>
+                        </tr>
+                      </thead>
+                      <tbody id="message_table">
+                       
+                      </tbody>
+                    </table>
+
+                   </div>
+                  </div>
+                 </div> 
+                 
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+           <div class="kt-grid__item kt-grid__item--fluid kt-app__content" id="informationFeedbackDiv" style="display: none" name="message_div">
+            <div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+             <div class="row">
+              <div class="col-xl-12">
+               <div class="kt-portlet kt-portlet--height-fluid">
+                <div class="kt-portlet__head">
+                 <div class="kt-portlet__head-label">
+                  <h3 class="kt-portlet__head-title"><span i18n="i18n.message">Information Feedback</span></h3>
+                 </div>
+                </div> 
+                <form class="kt-form kt-form--label-right">
+                 <div class="kt-portlet__body">
+                  <div class="kt-section kt-section--first">
+                   <div class="kt-section__body">
+                    <div class="form-group row">
+                        <textarea class="form-control" id="informationFeedbackData" rows="8" cols="18"></textarea>
+                     </div> 
+                   </div>
+                  </div>
+                 </div> 
+                 <div class="kt-portlet__foot">
+                  <div class="kt-form__actions">
+                   <div class="row">
+                    <div class="col-lg-3 col-xl-3"></div> 
+                    <div class="col-lg-9 col-xl-9">
+                     <button type="button" class="btn btn-brand btn-bold" id="informationFeedbackSubmit"><span i18n="i18n.submit">Submit</span></button>&nbsp; 
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </form>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+           <div class="kt-grid__item kt-grid__item--fluid kt-app__content" id="subEmailDiv" style="display: none" name="message_div">
+            <div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+             <div class="row">
+              <div class="col-xl-12">
+               <div class="kt-portlet kt-portlet--height-fluid">
+                <div class="kt-portlet__head">
+                 <div class="kt-portlet__head-label">
+                  <h3 class="kt-portlet__head-title"><span i18n="i18n.subscribeToEmail">Subscribe To Email</span></h3>
+                 </div>
+                </div> 
+                <form class="kt-form kt-form--label-right">
+                 <div class="kt-portlet__body">
+                  <div class="kt-section kt-section--first">
+                   <div class="kt-section__body">
+                    <div class="form-group row">
+                        <input type="text" name="subEmailData" id="subEmailData"  value="" class="form-control " />
+                     </div> 
+                   </div>
+                  </div>
+                 </div> 
+                 <div class="kt-portlet__foot">
+                  <div class="kt-form__actions">
+                   <div class="row">
+                    <div class="col-lg-3 col-xl-3"></div> 
+                    <div class="col-lg-9 col-xl-9">
+                     <button type="button" class="btn btn-brand btn-bold" id="subEmailSubmit"><span i18n="i18n.submit">Submit</span></button>&nbsp; 
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </form>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+
+         </div>
+        </div>
+       </div>
+      </div> 
+      <div id="kt_footer" class="kt-footer  kt-footer--extended  kt-grid__item">
+       <div class="kt-footer__top">
+        <div class="kt-container ">
+         <div class="row">
+          <div class="col-lg-4">
+           <div class="kt-footer__section">
+            <h3 class="kt-footer__title"><span i18n="i18n.foot1">About</span></h3> 
+            <div class="kt-footer__content">
+              <span i18n="i18n.foot2">Encrypt your connection, access our secure proxy servers unblock websites easily.</span>
+            </div>
+           </div>
+          </div> 
+          <div class="col-lg-4">
+           <div class="kt-footer__section">
+            <h3 class="kt-footer__title"><span i18n="i18n.foot3">Quick Links</span></h3> 
+            <div class="kt-footer__content">
+             <div class="kt-footer__nav">
+              <div class="kt-footer__nav-section">
+               <a href="#" id="Recharge_foot"><span i18n="i18n.recharge">Recharge</span></a> 
+              </div>
+             </div>
+            </div>
+           </div>
+          </div> 
+          
+         </div>
+        </div>
+       </div> 
+       <div class="kt-footer__bottom">
+        <div class="kt-container ">
+         <div class="kt-footer__wrapper">
+          <div class="kt-footer__copyright">
+            &copy; 2020 
+            <a href="#">Astar VPN</a>
+          </div> 
+        
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div> 
+   <div id="kt_scrolltop" class="kt-scrolltop">
+    <i class="fa fa-arrow-up"></i>
+   </div>
+  </div> 
+
+  <div class="modal fade" id="myModal" style="width: 80%;margin-left: 10%;" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+          <div class="modal-content">
+          
+              <div class="modal-header">
+                  <h5 class="modal-title">Message Hint</h5>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+          
+              <div class="modal-body" id="message_dialog_div">
+                  
+              </div>
+          
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="dialog_button">Ok</button>
+              </div>
+          
+          </div>
+      </div>
+  </div>
+
+  <div id="load_div" style="position:absolute; width: 100%; height: 100%; left: 0px; text-align:center; margin: 0 auto;top: 40%; z-index: 1550; display: none;">
+    <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+ </body>
+</html>

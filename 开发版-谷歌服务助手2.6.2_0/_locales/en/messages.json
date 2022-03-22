@@ -1,0 +1,32 @@
+{
+   "check_proxy_config_body": {
+      "message": "\u003Cp class=\"alert alert-danger\">Please check your browser extension management, disable other proxy plugins.\u003Ca href=\"check.html\" class=\"btn btn-warning\">Click here\u003C/a>\u003C/p>"
+   },
+   "check_proxy_config_title": {
+      "message": "Note: Browser proxy is controlled by other extensions."
+   },
+   "copy_successful": {
+      "message": "Copy Successful"
+   },
+   "copyright": {
+      "message": "googlehelper.net"
+   },
+   "description": {
+      "message": "This is a browser plugin for developers, cross-border workers, and research institutes to secure and speed Internet surfing."
+   },
+   "error_button": {
+      "message": "Click here"
+   },
+   "error_code": {
+      "message": "Error Code"
+   },
+   "error_network": {
+      "message": "Unable to connect to data server center"
+   },
+   "name": {
+      "message": "Ghelper"
+   },
+   "url_domain": {
+      "message": "googlehelper.net"
+   }
+}

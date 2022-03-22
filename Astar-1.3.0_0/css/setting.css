@@ -1,0 +1,150 @@
+.setting-panel {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+
+.setting-panel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.setting-panel a:hover {
+    color: #f1f1f1;
+}
+
+.setting-panel .closebtn {
+    font-size: 36px;
+    float: left;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.setting-header {
+    border-bottom: 1px solid #ededef;
+    height: 60px;
+    padding-top: 14px;
+}
+
+.setting-header > .head {
+    float: right;
+    margin-right: 37%;
+    margin-top: 3px;
+}
+
+.setting-body{
+    height: 490px;
+}
+
+.setting-body li {
+    height: 60px;
+    border-bottom: 1px solid #ededef;
+    /* text-align: center; */
+    padding-top: 17px;
+    font-size: 16px;
+}
+
+.setting-body ul {
+    list-style: none;
+}
+
+.setting-body li > .label {
+    float: left;
+    margin-left: 12px;
+}
+
+.checkbox-icon {
+    margin-right: 3px;
+}
+
+.checkbox-info {
+    margin-left: 4px;
+    margin-bottom: -5px;
+}
+
+.logo-box img.open-setting {
+    margin-right: 20%;
+    cursor: pointer;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    float: right;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    height: 25px;
+    width: 52px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 19px;
+    left: 7px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #05bed1;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(19px);
+    -ms-transform: translateX(19px);
+    transform: translateX(19px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.disabled-block {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.notify-unlock {
+    margin-bottom: 31px;
+    color: #004e77;
+}

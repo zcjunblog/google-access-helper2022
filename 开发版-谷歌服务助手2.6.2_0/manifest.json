@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "assets/js/background.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": "assets/img/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "default_locale": "zh_CN",
+   "description": "__MSG_description__",
+   "homepage_url": "http://googlehelper.net",
+   "icons": {
+      "128": "assets/img/icon128.png",
+      "16": "assets/img/icon.png",
+      "48": "assets/img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmIgHSgaBiBu81H1Y3aL81LnIKcG4JwUt3mmyvMU44WUiAjVo70l24mOrfwZnnWgEP7901DRhpvLYmNJiMaOpkaxucQw/cYfAqafsm6p4bAuKlt8hESHAYLa+5CAgSoWQ6W1ic3C7vyhuslTZ+coindSzZxtPn7tDJXECzPeXoQyM5ZD39Bk0T/o+/bktEx62tYbHAFgGKeyCWhV6WTu9SPQ104cCNVqQ/9G9UQBNljoJoE2A/3FaHs1VxMfrSgOPyaQGUEIo3QsrWO1ItKgyEu0FVGpY8amoPw+BkwyxuPOrPetPbTdKJocv/cwBJkjOzAPdw+kcFhCcMT/iGK6RTQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "17.0.0",
+   "name": "__MSG_name__",
+   "options_page": "options.html",
+   "permissions": [ "management", "webRequest", "webRequestBlocking", "proxy", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.6.2",
+   "web_accessible_resources": [ "assets/img/icon128.png" ]
+}

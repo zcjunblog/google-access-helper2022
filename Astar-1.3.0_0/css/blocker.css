@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'WorkSans', Arial, sans-serif;
+    background-color: #fafafa;
+  }
+  body.ru {
+    font-family: Arial, sans-serif;
+  }
+  body input {
+    font-family: 'WorkSans', Arial, sans-serif;
+  }
+  body .linebreak {
+    white-space: pre-line;
+  }
+  #page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+  #page #content {
+    position: absolute;
+    left: 50%;
+    margin-left: -210px;
+    top: 15%;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: red;
+  }
+  #page #content img {
+    margin-bottom: 30px;
+  }
+  #page #content .proceed {
+    background-color: red;
+    border-radius: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 11px;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+    position: relative;
+  }
+  .bold {
+    font-weight: bold;
+  }

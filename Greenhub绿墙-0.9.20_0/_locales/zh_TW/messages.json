@@ -1,0 +1,22 @@
+{
+   "ghDesc": {
+      "description": "",
+      "message": "使用 GreenHub VPN 代理解鎖任何網站，該代理可保護您的 IP 免受互聯網線程的影響，並讓您免費為 Chrome 進行私密瀏覽。"
+   },
+   "ghEdgeDesc": {
+      "description": "",
+      "message": "使用 GreenHub VPN 代理解鎖任何網站，該代理可保護您的 IP 免受互聯網線程的影響，並讓您免費為 Edge 進行私密瀏覽。"
+   },
+   "ghEdgeTitle": {
+      "description": "",
+      "message": "Greenhub 免費 VPN - 安全和解鎖 VPN"
+   },
+   "ghTitle": {
+      "description": "",
+      "message": "Greenhub 免費 VPN - 安全和解鎖 VPN"
+   },
+   "magicName": {
+      "description": "",
+      "message": "Magic VPN - 最好的免费代理工具"
+   }
+}

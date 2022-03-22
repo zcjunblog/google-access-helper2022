@@ -1,0 +1,1 @@
+$("#most-visited a").click(function(){var e=this.href.replace(/(http|https):\/\//gi,"").replace(/www\.|\//gi,"");chrome.runtime.sendMessage({what:"_trackEvent",category:"NewTab",action:"clickMV",label:e})});

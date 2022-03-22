@@ -1,0 +1,144 @@
+
+@media print {
+	body {
+		display: none
+	}
+}
+
+body {
+	font-family: Open Sans;
+	-webkit-user-select: none
+}
+
+hr {
+	margin: 10px 0;
+	background-color: rgba(0, 0, 0, .06);
+	border: none;
+	height: 1px
+}
+
+h1 {
+	color: #090;
+	font-weight: 300;
+	font-size: 18px
+}
+
+button {
+	border: none;
+	font-size: 14px;
+	display: block;
+	margin: 5px auto;
+	padding: 10px 30px;
+	border-radius: 2px;
+	outline: none;
+	cursor: pointer
+}
+
+#toggle-btn {
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	cursor: pointer;
+	opacity: .6;
+	transition: opacity .4s, box-shadow .4s, background-color .4s;
+	background-size: 55%;
+	background: url(/img/blue.svg) no-repeat 50%
+}
+
+#toggle-btn.active, #toggle-btn:hover {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	opacity: 1
+}
+
+#toggle-btn.active {
+	background-image: url(/img/close-icon-widget.svg)
+}
+
+#message {
+	background-color: #fff;
+	position: fixed;
+	bottom: 75px;
+	right: 5px;
+	width: 350px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	transition: opacity .4s, visibility 0s;
+	transition-delay: 0s, 0s;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 15px;
+	color: #4f5355;
+	overflow: hidden
+}
+
+#message:after {
+	bottom: -5px;
+	content: "";
+	display: block;
+	left: 313px;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	background-color: #fff;
+	transform: rotate(45deg);
+	box-shadow: 7px 7px 10px -6px rgba(0, 0, 0, .2)
+}
+
+#message.hidden {
+	opacity: 0;
+	visibility: hidden;
+	transition-delay: 0s, .4s
+}
+
+#message.iframe {
+	width: auto;
+	padding: 0
+}
+
+#message.iframe #plain-widget {
+	display: none
+}
+
+#message.iframe #iframe-widget {
+	display: block
+}
+
+#message.iframe #dismiss-btn {
+	font-size: 12px;
+	color: #b9b9b9;
+	padding: 2px 0
+}
+
+.logo {
+	height: 25px
+}
+
+#iframe-widget {
+	display: none
+}
+
+#description {
+	margin: 15px 30px
+}
+
+#submit-btn {
+	background-color: #008ace;
+	color: #fff;
+	padding: 15px 40px;
+	font-size: 15px;
+	transition: transform .3s
+}
+
+#submit-btn:hover {
+	transform: scale(1.05)
+}
+
+#dismiss-btn {
+	background: none;
+	color: #008ace;
+	font-size: 13px;
+	padding: 15px 30px 20px
+}

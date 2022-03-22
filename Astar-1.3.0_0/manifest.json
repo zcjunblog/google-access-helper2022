@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "/js/jquery-2.1.1.js", "/js/MD5.js", "/js/aes.js", "/js/ss.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/32.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "content_scripts": [ {
+      "js": [ "js/astarNotice.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_title__",
+   "homepage_url": "https://astarvpn.com/index.html",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm0VC8g9K2K4rZ/n5d6dmehLolRp3h/HyncpLC91+eCUt2+1tLULh0GFWSIus5P3Te6TOYg7li4X9QQ37hm55h2aJWbjyYTYSnyzJNHLtmfK1Qr94IeUs1ne8NPGhFgHpHvo58MGA4STD/QQ7hEoIPx6FmkXm7DCC1My8+PZVxhDEcQDyBLQNFdTUo0+4XBf0urkvBudMFdVHFeKQybBn9n6r263tQQnicnseg0CzWksgg8MMs3IZ/Hjii2bJYnHxsnjP8PbT4YCXAhOJWEoRwanhiuEnM2G54TRPHNDtHERAA5+wR4hKzCEBj5DhhJOc/4mPGCKB+RgdUppDVMpkqQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0.0",
+   "name": "__MSG_title__",
+   "permissions": [ "proxy", "https://*/*", "http://*/*", "webRequest", "webRequestBlocking", "privacy", "management" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.0",
+   "web_accessible_resources": [ "widget.html", "img/*" ]
+}

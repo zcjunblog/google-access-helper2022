@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>购买VIP</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css" >
+    <link rel="stylesheet" href="../css/iguge_tpl.css" >
+    <link rel="stylesheet" href="../libs/jquery-confirm/css/jquery-confirm.css">
+    
+  </head>
+  <body>
+
+<main role="main" class="container">
+  <div id="notes"></div>  
+  <div class="jumbotron" style="padding: 15px;">
+     确认购买套餐 / Confirm Order
+    <hr/>
+    <form>
+        <div class="form-group form-row">
+          <div class="col">账号 / Account: <span id="mzk_user_username"></span></div>
+            <div class="col">VIP等级 / Level: <span id="mzk_user_level_button"></span></div>
+            <div class="col">到期时间 / Expired: <span class="col-sm-10" id="mzk_vip_exp"></span></div>
+          </div>
+          <div class="form-group row"></div>
+        <div class="form-group row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">套餐 / Plan</label>
+            <div id="product_list_ul" class="col-sm-10">
+            </div>
+          </div>
+        
+        <div class="form-group row">
+          <label for="payment_list_ul" class="col-sm-2 col-form-label">支付方式 / Method</label>
+          <div class="col-sm-10" id="payment_list_ul">
+          </div>
+        </div>
+        <div class="form-group clearfix" >
+          <hr/>
+        <div class="float-left">
+            <button type="button" id="gotopay_button" class="btn btn-success">去支付 / Pay Now <i class="fas fa-arrow-right"></i></button> 
+          </div>
+          <div class="float-right">
+               <button type="button" id="re_sync_userinfo" class="btn btn-danger">支付没到账？<i class="fas fa-sync"></i></button>
+            </div>
+        </div>   
+      </form>
+  </div>
+</main>
+
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/jquery.loading.min.js"></script>
+        <script src="../libs/jquery-confirm/js/jquery-confirm.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../libs/qrcode.min.js"></script>
+        <script src="js/payment.js"></script>
+</html>

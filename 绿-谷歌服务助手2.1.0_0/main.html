@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html>
+<head design-width="375">
+<meta charset="utf-8">
+<title>mvpn</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/css.css" />
+<link rel="stylesheet" href="css/common.css" />
+<link rel="stylesheet" href="css/animate.min.css" />
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/auto-size.js"></script>
+<link rel="stylesheet" href="/libs/jquery-confirm/css/jquery-confirm.css">
+<script src="/libs/jquery-confirm/js/jquery-confirm.js"></script>
+</head>
+<body class="bgs">
+	<div class="mobile-wrap center">
+		<div class="heads">
+			<div class="heads-logos">
+                            <a href="https://iguge.xyz/" target="_blank"><img src="img/iguge_logo.png" alt="https://iguge.xyz/" /></a><i id="mzk_app_ver"></i>
+			</div>
+			<span id="mzk_setting_buutton" class="set"></span>
+			<span id="mzk_buyvip_buutton" class="vips"></span>
+		</div>
+		<div class="switch">
+			<div class="switch-col">
+				<div id="connect_button" class="switch-main">
+					<span></span>
+				</div>
+			</div>
+                    <div id="mzk_home_link_text" class="switch-txt"></div>
+		</div>
+		<div class="lists">
+			<ul>
+				<li>
+					<div class="lists-ico">
+						<img src="img/4e659_30x30.png" alt="">
+					</div>
+					<div class="lists-inform" id="mzk_select_link">
+                                            <span><i class="lang_main_location">线路</i>：<i id="server_name"></i></span>
+						<i class="more"></i>
+					</div>
+				</li>
+				<li>
+					<div class="lists-ico">
+						<img src="img/9495b_30x30.png" alt="">
+					</div>
+					<div class="lists-inform" id="connect_mode_div">
+						<span>
+							<i class="lang_main_mode">IP</i>：<i id="connect_mode_text"></i>
+						</span>
+						<i class="more"></i>
+					</div>
+				</li>
+
+				<li id="firefox_per_tips" style="display: none;">
+					<div class="lists-inform" id="firefox_per_tips_div">
+						<span>
+							<i style="color: coral;">⚠️ 缺少权限，请开启Firefox PAC 模式!</i>
+						</span>
+						<i class="more"></i>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="lists">
+			<ul>
+				<li>
+					<div class="lists-ico">
+						<img src="img/3b7e0_30x30.png" alt="">
+					</div>
+					<div class="lists-inform" id="vip_date_tips">
+						<span>
+                                                    VIP ：<i id="exp_date"></i>
+						</span>
+						<i class="more"></i>
+					</div>
+				</li>
+				<li>
+					<div class="lists-ico">
+						<img src="img/fc94f_28x21.png" width="30" height="30" alt="">
+					</div>
+					<div class="lists-inform" id="client_page_link">
+						<span>
+							<i class="lang_mobileclient">手机/PC/MAC 客户端</i>
+						</span>
+						<i class="more"></i>
+					</div>
+				</li>
+				<li>
+					<div class="lists-ico">
+						<img src="img/f3d94_30x30.png" alt="">
+					</div>
+					<div class="lists-inform">
+						<span>
+							<i id="main_notes"></i>
+						</span>
+						<i class="more"></i>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div><!--mobile_wrap-->
+        <script src="js/main.js"></script>
+        <script src="js/main_page.js"></script>
+</body>
+</html>

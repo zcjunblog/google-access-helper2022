@@ -1,0 +1,38 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "32": "icons/disabled32.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_ghTitle__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_matches": [ "*://*.twitter.com/*" ],
+      "js": [ "js/xrpa-data-module/content-script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "js/xrpa-data-module/content-script.js" ],
+      "matches": [ "*://*.twitter.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-inline' 'sha256-4RS22DYeB7U14dra4KcQYxmwt5HkOInieXK1NUMBmQI=' https://www.google-analytics.com https://ssl.google-analytics.com; object-src 'self'; frame-src 'self' *; child-src 'self' *",
+   "default_locale": "en",
+   "description": "__MSG_ghDesc__",
+   "homepage_url": "https://chrome.google.com/webstore/detail/greenhub-proxy/knmhokeiipedacnhpjklbjmfgedfohco",
+   "icons": {
+      "128": "icons/128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl+dx2kyAznCE9zzxBSwkDS4JCbLoostwmT0qJSHwi4nryqe2yW4oFY8PdGVfp7q4IsohAOekUqqKJegD7FBII3kJ+DsLfggHcct4a/Qmv3LrA5eyhbQha7+lpR7rbXYDW4W4IdvuVzn4zVDmQWZSAOC3aZ2IgRzxjj7SOeT6FN/RVCoUuENphvhbWGbUJ4guSg1i/7MB53z9cagU24MpFJL6qo1ttNA0PKzCIazcN1a0DDW6xAApcVPdYXbePEXi6oETyBoJukxwvsB8cnUXhPGY0vnAT1a+3USt/PnwASowEc+fHfoAxtobwaW6IWx/ZU4VI44qLqKW61fIU7aznwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_ghTitle__",
+   "permissions": [ "storage", "proxy", "webRequest", "webRequestBlocking", "alarms", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.20"
+}

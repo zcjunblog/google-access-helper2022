@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener(function(e,o,t){"closedTips-gw"==e.what&&(iframebottom.remove(),$("html").css("margin-bottom","0px"),chrome.storage.local.set({"closedTips-gw":!0},function(){}))});

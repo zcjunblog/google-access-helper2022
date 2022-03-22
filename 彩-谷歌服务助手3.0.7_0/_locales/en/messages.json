@@ -1,0 +1,344 @@
+{
+   "badgeCheckHomeError": {
+      "message": "You have not set the Guidance page"
+   },
+   "badgeChecking": {
+      "message": "Checking Guadiance page"
+   },
+   "badgeConfigError": {
+      "message": "Internal exception, please contact the developer"
+   },
+   "badgeConnectError": {
+      "message": "Network error, try again later"
+   },
+   "badgeConnecting": {
+      "message": "Connecting to server"
+   },
+   "badgeExpiredHomeError": {
+      "message": "After 24 hours of continuous use, you need to restart and check Guidance page"
+   },
+   "badgeInit": {
+      "message": "Gservice Helper is starting"
+   },
+   "badgeLogining": {
+      "message": "Logging in"
+   },
+   "badgeNeedLoginError": {
+      "message": "You need to log in to use"
+   },
+   "badgePause": {
+      "message": "Gservice Helper has been suspended"
+   },
+   "badgeProxyBannedError": {
+      "message": "Proxy Setting failed!Please check the browser settings"
+   },
+   "badgeProxyConflictError": {
+      "message": "Proxy Conflict! Proxy permission occupied by other extensions"
+   },
+   "badgeProxying": {
+      "message": "Retrieving resources"
+   },
+   "badgeRunning": {
+      "message": "Google service is accesible"
+   },
+   "extDesc": {
+      "message": "Gservice Helper allows you to access Google’s services in mainland China, such as Google Search, Translation, Gmail ... "
+   },
+   "extLoginBtnText": {
+      "message": "Login/Register"
+   },
+   "extLoginExplain1": {
+      "message": "By signing in, you agree to the \u003Ca href='' target='_blank' data-skip='tos'>Terms of Service\u003C/a> and \u003Ca href='' target='_blank' data-skip='privacy'>Privacy Policy\u003C/a>"
+   },
+   "extName": {
+      "message": "Gservice Helper"
+   },
+   "extOnLoginText": {
+      "message": "Logging in..."
+   },
+   "extShortDesc": {
+      "message": "Gservice Helper allows you to access Google’s services in mainland China"
+   },
+   "optionsActivePageButtomCloseText": {
+      "message": "Colse tips"
+   },
+   "optionsActivePageExplainText1": {
+      "message": "Gservice Helper is free, but you need to set up the guidance page to activate. After activation, you can use it for free. Click the button below and checkout our setting tutorial. When you finish the activation, you have to \u003Cspan style='font-weight:600'>restart the browser\u003C/span> to take effect."
+   },
+   "optionsActivePageExplainText2": {
+      "message": "If you can't set up guidance manually, you can go to options page, and turn on \u003Ca href='options.html' style='color:#1a73e8;'>open guidance page automatic \u003C/a>"
+   },
+   "optionsActivePageLookCourseBtn": {
+      "message": "View Tutorial"
+   },
+   "optionsActivePageTitle": {
+      "message": "Gservice Helper Need Activation"
+   },
+   "optionsCenterCheckPasswordTips": {
+      "message": ">= 8 char, uppercase lowercase and number"
+   },
+   "optionsCenterInputNewPasswordPlaceholder": {
+      "message": ">= 8 char, uppercase lowercase and number"
+   },
+   "optionsCenterInputNickPlaceholder": {
+      "message": "Please input nickname"
+   },
+   "optionsCenterInputRepPasswordPlaceholder": {
+      "message": "Please input new password again"
+   },
+   "optionsCenterMustInputText": {
+      "message": "Please input "
+   },
+   "optionsCenterNewEmailText": {
+      "message": "New email"
+   },
+   "optionsCenterNewPasswordText": {
+      "message": "New passrod"
+   },
+   "optionsCenterNickText": {
+      "message": "Nick"
+   },
+   "optionsCenterOldEmailText": {
+      "message": "Current password"
+   },
+   "optionsCenterRepPasswordText": {
+      "message": "Repeat password"
+   },
+   "optionsCenterUpdateEmailText": {
+      "message": "Change email"
+   },
+   "optionsCenterUpdateErrorTips1": {
+      "message": "Passwords are inconsistent"
+   },
+   "optionsCenterUpdateInfoText": {
+      "message": "Profile"
+   },
+   "optionsCenterUpdatePasswordText": {
+      "message": "Change password"
+   },
+   "optionsCenterUpdateSuccessTips": {
+      "message": "change success"
+   },
+   "optionsCenterUpdateSuccessTips2": {
+      "message": "Congratulations, the update was successful"
+   },
+   "optionsEmailAccountText": {
+      "message": "Email"
+   },
+   "optionsFreePerpetualUseText1": {
+      "message": "Activate Now"
+   },
+   "optionsGetVerificationCodeFailure": {
+      "message": "verification code request failed"
+   },
+   "optionsInfoPageAutoHomeText": {
+      "message": "open guidance page automatic"
+   },
+   "optionsLoginEmailPlaceholder": {
+      "message": "Enter your email"
+   },
+   "optionsLoginEmailRegExpValues": {
+      "message": "Please enter your email!"
+   },
+   "optionsLoginFailure": {
+      "message": "Login failed"
+   },
+   "optionsLoginVerificationCodePlaceholder": {
+      "message": "Enter the code"
+   },
+   "optionsLoginVerificationCodeRegExpValues": {
+      "message": "Please enter verification code!"
+   },
+   "optionsLoginVerificationPasswdPlaceholder": {
+      "message": "Please input password"
+   },
+   "optionsLoginVerificationPasswdRegExpValues": {
+      "message": "Please input password!"
+   },
+   "optionsLoginViewFooterText": {
+      "message": "New users will be registered for the first login"
+   },
+   "optionsPasswdText": {
+      "message": "Password"
+   },
+   "optionsSendVerificationCodeBtn": {
+      "message": "Send"
+   },
+   "optionsSendVerificationCodeSuccess": {
+      "message": "The verification code has been sent, please check your inbox"
+   },
+   "optionsUseCodeLoginText": {
+      "message": "Login with passcode"
+   },
+   "optionsUsePasswdLoginText": {
+      "message": "Login with password"
+   },
+   "optionsVerificationCodeCountdownText1": {
+      "message": "Retry in "
+   },
+   "optionsVerificationCodeCountdownText2": {
+      "message": " seconds"
+   },
+   "optionsVerificationCodeText": {
+      "message": "Passcode"
+   },
+   "optionsWelcomePageContent1": {
+      "message": "遇见需要运气，再遇更要勇气。感谢你在茫茫产品中坚定选择我们！一个小小的工具希望给你大大的惊喜。"
+   },
+   "optionsWelcomePageContent2": {
+      "message": "隐藏所有复杂的配置和操作。简洁友好的界面，新手也能马上学会。复杂麻烦的事情交给我们，你只需要体验产品的乐趣！"
+   },
+   "optionsWelcomePageContent3": {
+      "message": "帮助程序员、设计师、科研人员、学生、外贸工作者提高工作效率。十年如一日，稳定服务，让你比同行看得更多，效率更高。"
+   },
+   "optionsWelcomePageContent4": {
+      "message": "你有24小时免费试用时间，请点击下方按钮，按照说明免费激活。赶紧来体验吧~~"
+   },
+   "optionsWelcomePageContent5": {
+      "message": "你已登录成功，请点击下方按钮，按照说明免费激活，即可正常使用产品。"
+   },
+   "optionsWelcomePageTitle1": {
+      "message": "欢迎使用"
+   },
+   "optionsWelcomePageTitle2": {
+      "message": "开箱即用"
+   },
+   "optionsWelcomePageTitle3": {
+      "message": "效率利器"
+   },
+   "optionsWelcomePageTitle4": {
+      "message": "立即体验"
+   },
+   "popupAccessAssistantCloseText": {
+      "message": "Gservice Helper has been suspended."
+   },
+   "popupAccessAssistantOpenText": {
+      "message": "Gservice Helper is working, switch to suspend"
+   },
+   "popupAppName": {
+      "message": "Gservice Helper"
+   },
+   "popupAssistantCloseText": {
+      "message": "Gservice Helper has been suspended"
+   },
+   "popupCheckingHomeError": {
+      "message": "You have not set the Guidance page"
+   },
+   "popupCloseText": {
+      "message": "OFF"
+   },
+   "popupExporeHomeError": {
+      "message": "After 24 hours of continuous use, you need to restart browser"
+   },
+   "popupFeedBackDefaultOption": {
+      "message": "Features/Advise"
+   },
+   "popupFeedBackOption1": {
+      "message": "Bug/Issue"
+   },
+   "popupFeedBackOption2": {
+      "message": "other"
+   },
+   "popupFeedBackTitle": {
+      "message": "Feedback"
+   },
+   "popupFeedbackFailureMssage": {
+      "message": "Submit failed"
+   },
+   "popupFeedbackNullContentMessage": {
+      "message": "Feedback content can't be empty"
+   },
+   "popupFeedbackPlaceholder": {
+      "message": "Please enter your feedback"
+   },
+   "popupFeedbackSuccessMssage": {
+      "message": "Submit success"
+   },
+   "popupFeedbackText": {
+      "message": "Feedback"
+   },
+   "popupGoSettingBtnText": {
+      "message": "Setting"
+   },
+   "popupHelpText": {
+      "message": "Help"
+   },
+   "popupHouseofhelloText": {
+      "message": "Home"
+   },
+   "popupInitConnectError": {
+      "message": "Network error, try again later"
+   },
+   "popupIntConfigError": {
+      "message": "Internal exception, please contact the developer"
+   },
+   "popupLoadingChecking": {
+      "message": "Checking Guidance page"
+   },
+   "popupLoadingConnection": {
+      "message": "Connecting"
+   },
+   "popupLoadingInit": {
+      "message": "Initializing"
+   },
+   "popupLoadingLogining": {
+      "message": "Logining in"
+   },
+   "popupLoadingProxying": {
+      "message": "Retrieving resources"
+   },
+   "popupLoadingStart": {
+      "message": "Loading"
+   },
+   "popupLoginExplain2": {
+      "message": "New users will be registered for the first login"
+   },
+   "popupNavClouldsHDD": {
+      "message": "Drive"
+   },
+   "popupNavGmail": {
+      "message": "Gmail"
+   },
+   "popupNavMaps": {
+      "message": "Map"
+   },
+   "popupNavScholar": {
+      "message": "Scholar"
+   },
+   "popupNavSearch": {
+      "message": "Search"
+   },
+   "popupNavTranslate": {
+      "message": "Translate"
+   },
+   "popupNoDescripText": {
+      "message": "No Announcement"
+   },
+   "popupOpenText": {
+      "message": "ON"
+   },
+   "popupRestartAssistantBtn": {
+      "message": "Restart Now"
+   },
+   "popupRestartAssistantText": {
+      "message": "The guidance will be checked after restrart"
+   },
+   "popupRestartCountdownText1": {
+      "message": "Restart in "
+   },
+   "popupRestartCountdownText2": {
+      "message": ""
+   },
+   "popupRightNowRecoverBtnText": {
+      "message": "Resume"
+   },
+   "popupRightNowRestartBtnText": {
+      "message": "Restart now"
+   },
+   "popupSubmitBtn": {
+      "message": "Submit"
+   },
+   "popupTryRestartBtnText": {
+      "message": "Restart again"
+   }
+}

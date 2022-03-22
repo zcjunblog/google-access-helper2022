@@ -1,0 +1,18 @@
+body {
+    background: #fff;
+    width:280px;
+    height:350px;
+    padding:1em;
+}
+
+.popup-body {
+    height:250px;
+}
+.popup-body ul {
+     list-style-type: none;
+     line-height: 2.1em;
+     padding-left: 0em;
+}
+.popup-header>.logo{
+    text-align:center;
+}
