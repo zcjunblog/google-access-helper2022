@@ -71,6 +71,7 @@ npm run package
 ## 更多资料
 
 - [安装与使用](docs/install.md)
+- [WARP 本地代理评估（本机实测未连通）](docs/warp.md)
 - [兼容性与排错](docs/migration.md)
 - [其他代理配置工具](docs/alternatives.md)
 - [参与贡献](CONTRIBUTING.md)
