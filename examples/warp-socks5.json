@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "profile": {
+    "scheme": "socks5",
+    "host": "127.0.0.1",
+    "port": 40000,
+    "scope": "google"
+  }
+}
