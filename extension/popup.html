@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Google 访问助手</title>
+    <link rel="stylesheet" href="popup.css" />
+    <script type="module" src="popup.mjs"></script>
+  </head>
+  <body>
+    <main id="app" aria-busy="true">
+      <header class="app-header">
+        <div class="brand-mark" aria-hidden="true">
+          <img src="icons/48.png" width="40" height="40" alt="" />
+        </div>
+        <div>
+          <h1>Google 访问助手</h1>
+          <p>常用服务，一处连接</p>
+        </div>
+        <span class="local-badge">本地配置</span>
+      </header>
+
+      <section
+        id="status-card"
+        class="status-card"
+        aria-labelledby="status-title"
+        data-state="loading"
+      >
+        <div class="status-heading">
+          <span class="status-dot" aria-hidden="true"></span>
+          <h2 id="status-title">正在读取状态</h2>
+          <span id="status-badge" class="status-badge">请稍候</span>
+        </div>
+        <p id="status-detail">正在检查浏览器的代理设置…</p>
+        <div class="status-bottom">
+          <span id="status-note">状态以浏览器实际设置为准</span
+          ><button id="disable" type="button" disabled>停用代理</button>
+        </div>
+      </section>
+
+      <nav class="shortcuts" aria-label="Google 常用服务">
+        <a
+          href="https://www.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="shortcut-icon search-icon" aria-hidden="true">G</span
+          ><span>搜索</span></a
+        >
+        <a
+          href="https://mail.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="shortcut-icon mail-icon" aria-hidden="true">M</span
+          ><span>Gmail</span></a
+        >
+        <a
+          href="https://www.google.com/maps"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="shortcut-icon maps-icon" aria-hidden="true"
+            ><svg viewBox="0 0 24 24" fill="none">
+              <path
+                d="M19 10c0 5-7 10-7 10S5 15 5 10a7 7 0 1 1 14 0Z"
+                stroke="currentColor"
+                stroke-width="2"
+              />
+              <circle cx="12" cy="10" r="2.5" fill="currentColor" /></svg></span
+          ><span>地图</span></a
+        >
+        <a
+          href="https://scholar.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="shortcut-icon scholar-icon" aria-hidden="true"
+            ><svg viewBox="0 0 24 24" fill="none">
+              <path
+                d="m3 9 9-5 9 5-9 5-9-5Z"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M7 12v5c3 3 7 3 10 0v-5M21 9v7"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              /></svg></span
+          ><span>学术</span></a
+        >
+        <a
+          href="https://chromewebstore.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="shortcut-icon store-icon" aria-hidden="true"
+            ><svg viewBox="0 0 24 24" fill="none">
+              <path
+                d="M5 9h14l1 11H4L5 9Z"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M9 9V7a3 3 0 0 1 6 0v2"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+              <path d="m10 13 5 3-5 2v-5Z" fill="currentColor" /></svg></span
+          ><span>应用商店</span></a
+        >
+      </nav>
+
+      <section class="card config-card" aria-labelledby="config-title">
+        <div class="section-heading">
+          <h2 id="config-title">代理配置</h2>
+          <span class="section-caption">使用你自己的代理服务</span>
+        </div>
+        <form id="profile-form">
+          <fieldset id="profile-fields" disabled>
+            <legend class="sr-only">代理服务器与访问范围</legend>
+            <div class="server-fields">
+              <div class="field protocol-field">
+                <label for="scheme">协议</label
+                ><select id="scheme" name="scheme">
+                  <option value="http">HTTP</option>
+                  <option value="https">HTTPS</option>
+                  <option value="socks5">SOCKS5</option>
+                </select>
+              </div>
+              <div class="field host-field">
+                <label for="host">代理地址</label
+                ><input
+                  id="host"
+                  name="host"
+                  type="text"
+                  placeholder="127.0.0.1"
+                  autocomplete="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                  required
+                />
+              </div>
+              <div class="field port-field">
+                <label for="port">端口</label
+                ><input
+                  id="port"
+                  name="port"
+                  type="number"
+                  min="1"
+                  max="65535"
+                  step="1"
+                  inputmode="numeric"
+                  placeholder="7890"
+                  required
+                />
+              </div>
+            </div>
+            <p class="field-hint">填写主机名或 IP 地址，无需添加协议前缀。</p>
+            <div class="scope-heading">访问范围</div>
+            <div class="scope-options">
+              <label class="scope-option" for="scope-google"
+                ><input
+                  id="scope-google"
+                  type="radio"
+                  name="scope"
+                  value="google"
+                  aria-label="仅 Google 服务"
+                  checked
+                /><span
+                  ><strong>仅 Google 服务</strong
+                  ><small>其他网站直接连接</small></span
+                ></label
+              >
+              <label class="scope-option" for="scope-all"
+                ><input
+                  id="scope-all"
+                  type="radio"
+                  name="scope"
+                  value="all"
+                  aria-label="全部网站"
+                /><span
+                  ><strong>全部网站</strong
+                  ><small>所有网站通过此代理访问</small></span
+                ></label
+              >
+            </div>
+          </fieldset>
+          <div class="form-actions">
+            <button id="save" class="button secondary" type="submit" disabled>
+              保存配置</button
+            ><button id="apply" class="button primary" type="button" disabled>
+              <span>保存并启用</span><span aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <p class="save-hint">保存仅存储配置，点击启用后才会接管代理。</p>
+        </form>
+      </section>
+
+      <div
+        id="feedback"
+        class="feedback"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+        hidden
+      ></div>
+
+      <section class="card diagnostics" aria-labelledby="diagnostic-title">
+        <div class="diagnostic-heading">
+          <div>
+            <h2 id="diagnostic-title">连接诊断</h2>
+            <p>检查 Google、应用商店和学术的连接</p>
+          </div>
+          <button id="diagnose" class="button compact" type="button" disabled>
+            开始诊断
+          </button>
+        </div>
+        <p id="diagnostic-note" class="diagnostic-note">
+          仅在点击时请求网站访问权限并发起检查。
+        </p>
+        <ul
+          id="diagnostic-results"
+          class="diagnostic-results"
+          aria-label="诊断结果"
+          hidden
+        ></ul>
+        <p id="diagnostic-time" class="diagnostic-time" hidden></p>
+      </section>
+
+      <footer class="app-footer">
+        <span>配置仅保存在此浏览器</span>
+        <div class="file-actions">
+          <button id="import" type="button" disabled>导入配置</button
+          ><span aria-hidden="true">·</span
+          ><button id="export" type="button" disabled>导出配置</button>
+        </div>
+      </footer>
+      <input
+        id="import-file"
+        class="sr-only"
+        type="file"
+        accept=".json,application/json"
+        tabindex="-1"
+        aria-label="选择 JSON 配置文件"
+      />
+    </main>
+  </body>
+</html>
