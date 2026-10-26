@@ -1,15 +1,15 @@
-name: 兼容性与文档反馈
-description: 反馈工具兼容、使用说明或排错文档问题
+name: 扩展问题与兼容性反馈
+description: 反馈扩展功能、兼容性、安装或使用说明问题
 title: '[反馈] '
 body:
   - type: markdown
     attributes:
-      value: 请先阅读兼容性与排错指南。本仓库维护工具索引和文档；第三方账号与服务由对应项目管理。请勿粘贴密码或完整订阅链接。
+      value: 请先阅读安装与排错指南，并提供扩展版本。第三方代理账号与服务由对应项目管理。请勿粘贴密码、私有代理地址或完整订阅链接。
   - type: input
     id: environment
     attributes:
       label: 运行环境
-      description: 请填写浏览器名称、完整版本和操作系统。
+      description: 请填写浏览器名称、完整版本、操作系统和扩展版本。
     validations:
       required: true
   - type: input

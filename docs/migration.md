@@ -2,6 +2,8 @@
 
 文档核查日期：**2026-10-26**。本指南帮助区分平台兼容问题、代理配置问题和第三方服务问题。
 
+本仓库当前版本已经提供可直接加载的 MV3 扩展，安装与使用见 [安装指南](install.md)。
+
 ## 先确认你遇到哪一种问题
 
 | 现象 | 先检查什么 | 下一步 |
@@ -41,7 +43,7 @@ MV3 涉及后台生命周期、权限和请求处理方式变化。对 MV2 插�
 | 服务依赖 | 单独验证注册、登录、线路接口和认证协议，前端迁移不会自动修复服务端 |
 | 来源与许可 | 核对第三方代码及依赖的修改和再分发条件 |
 
-参考 [MV3 概览](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3) 与 [官方迁移文档](https://developer.chrome.com/docs/extensions/develop/migrate)。本仓库提供工具入口和迁移资料，具体扩展的开发与发布由对应项目维护者负责。
+参考 [MV3 概览](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3) 与 [官方迁移文档](https://developer.chrome.com/docs/extensions/develop/migrate)。本仓库的 MV3 扩展为新的独立实现，第三方项目的开发与发布由对应维护者负责。
 
 ## 如何提交有效反馈
 
