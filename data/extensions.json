@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "extensions": [
+    {
+      "directory": "Astar-1.3.0_0",
+      "manifest_path": "Astar-1.3.0_0/manifest.json",
+      "name": "Astar VPN - Free and fast VPN for everyone",
+      "version": "1.3.0",
+      "manifest_version": 2,
+      "minimum_chrome_version": "18.0.0",
+      "chrome_status": "unsupported-mv2",
+      "permissions": [
+        "management",
+        "privacy",
+        "proxy",
+        "webRequest",
+        "webRequestBlocking"
+      ],
+      "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "optional_permissions": [],
+      "optional_host_permissions": [],
+      "content_script_matches": [
+        "<all_urls>"
+      ]
+    },
+    {
+      "directory": "Greenhub绿墙-0.9.20_0",
+      "manifest_path": "Greenhub绿墙-0.9.20_0/manifest.json",
+      "name": "Greenhub Free VPN - Secure and Unblock VPN",
+      "version": "0.9.20",
+      "manifest_version": 2,
+      "minimum_chrome_version": null,
+      "chrome_status": "unsupported-mv2",
+      "permissions": [
+        "alarms",
+        "proxy",
+        "storage",
+        "webRequest",
+        "webRequestBlocking"
+      ],
+      "host_permissions": [
+        "<all_urls>"
+      ],
+      "optional_permissions": [],
+      "optional_host_permissions": [],
+      "content_script_matches": [
+        "*://*.twitter.com/*",
+        "<all_urls>"
+      ]
+    },
+    {
+      "directory": "开发版-谷歌服务助手2.6.2_0",
+      "manifest_path": "开发版-谷歌服务助手2.6.2_0/manifest.json",
+      "name": "谷歌上网助手 开发版",
+      "version": "2.6.2",
+      "manifest_version": 2,
+      "minimum_chrome_version": "17.0.0",
+      "chrome_status": "unsupported-mv2",
+      "permissions": [
+        "management",
+        "proxy",
+        "webRequest",
+        "webRequestBlocking"
+      ],
+      "host_permissions": [
+        "<all_urls>"
+      ],
+      "optional_permissions": [],
+      "optional_host_permissions": [],
+      "content_script_matches": []
+    },
+    {
+      "directory": "彩-谷歌服务助手3.0.7_0",
+      "manifest_path": "彩-谷歌服务助手3.0.7_0/manifest.json",
+      "name": "谷歌访问助手",
+      "version": "3.0.7",
+      "manifest_version": 2,
+      "minimum_chrome_version": "55.0.0",
+      "chrome_status": "unsupported-mv2",
+      "permissions": [
+        "notifications",
+        "proxy",
+        "tabs",
+        "unlimitedStorage",
+        "webRequest",
+        "webRequestBlocking"
+      ],
+      "host_permissions": [
+        "<all_urls>"
+      ],
+      "optional_permissions": [],
+      "optional_host_permissions": [],
+      "content_script_matches": []
+    },
+    {
+      "directory": "绿-谷歌服务助手2.1.0_0",
+      "manifest_path": "绿-谷歌服务助手2.1.0_0/manifest.json",
+      "name": "iGG谷歌学术助手",
+      "version": "2.1.0",
+      "manifest_version": 2,
+      "minimum_chrome_version": "33.0.0",
+      "chrome_status": "unsupported-mv2",
+      "permissions": [
+        "alarms",
+        "management",
+        "notifications",
+        "proxy",
+        "storage",
+        "webRequest",
+        "webRequestBlocking"
+      ],
+      "host_permissions": [
+        "<all_urls>"
+      ],
+      "optional_permissions": [],
+      "optional_host_permissions": [],
+      "content_script_matches": []
+    },
+    {
+      "directory": "黄-谷歌服务助手4.1_0",
+      "manifest_path": "黄-谷歌服务助手4.1_0/manifest.json",
+      "name": "PP谷歌访问助手-为国出征-国庆版",
+      "version": "4.1",
+      "manifest_version": 2,
+      "minimum_chrome_version": null,
+      "chrome_status": "unsupported-mv2",
+      "permissions": [
+        "management",
+        "notifications",
+        "proxy",
+        "storage",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking"
+      ],
+      "host_permissions": [
+        "<all_urls>"
+      ],
+      "optional_permissions": [],
+      "optional_host_permissions": [],
+      "content_script_matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

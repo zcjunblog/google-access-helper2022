@@ -1,0 +1,31 @@
+name: 资源信息更新
+description: 补充官方入口，或修正版本与兼容性信息
+title: '[资源] '
+body:
+  - type: input
+    id: project
+    attributes:
+      label: 项目名称
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 作者官方来源
+      description: 请提供源码仓库、商店或官方发布页链接。
+    validations:
+      required: true
+  - type: input
+    id: checked-at
+    attributes:
+      label: 核查日期
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 版本、浏览器支持与验证范围
+      description: 说明哪些来自页面或源码，哪些做过实际安装或连通性测试。
+    validations:
+      required: true

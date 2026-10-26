@@ -1,0 +1,33 @@
+name: 兼容性与工具反馈
+description: 反馈扩展兼容、文档或清单生成器问题
+title: '[反馈] '
+body:
+  - type: markdown
+    attributes:
+      value: 历史扩展均为 MV2，当前 Chrome 不再支持。请先阅读迁移指南；本仓库不管理第三方账号和服务。请勿粘贴密码或完整订阅链接。
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 浏览器名称与完整版本；工具问题请填写操作系统与 Python 版本。
+    validations:
+      required: true
+  - type: input
+    id: component
+    attributes:
+      label: 扩展目录或工具命令
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤与预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 实际结果与错误信息
+      description: 请先删除认证信息及其他隐私内容。
+    validations:
+      required: true
