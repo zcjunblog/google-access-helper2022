@@ -1,19 +1,19 @@
 # 迁移与排错指南
 
-文档核查日期：**2026-10-26**。本指南帮助区分平台兼容问题和第三方服务问题；仓库内旧扩展的服务连通性未验证。
+文档核查日期：**2026-10-26**。本指南帮助区分平台兼容问题、代理配置问题和第三方服务问题。
 
 ## 先确认你遇到哪一种问题
 
 | 现象 | 先检查什么 | 下一步 |
 | --- | --- | --- |
-| 提示 Manifest V2 已弃用、版本不受支持或无法加载 | 扩展的 `manifest_version` 与当前浏览器支持情况 | 查看 [旧版本清单](extension-catalog.md)，转向 [当前工具入口](alternatives.md) |
+| 提示 Manifest V2 已弃用、版本不受支持或无法加载 | 扩展的 `manifest_version` 与当前浏览器支持情况 | 查阅作者兼容说明，选择 [当前工具入口](alternatives.md) 中适用的工具 |
 | 扩展已安装，但浏览器仍无法访问 | 当前生效的代理配置、其他扩展是否控制代理、服务地址和端口 | 先只保留一个代理配置扩展生效，再分别核对配置与服务 |
 | 扩展能打开，但注册、登录或获取线路失败 | 上游账号系统和服务状态 | 查上游公告；本仓库不能恢复第三方注册或账号服务 |
 | 切换扩展后代理状态异常 | 旧配置、系统代理和扩展之间的控制关系 | 导出配置，停用冲突扩展，重新选择明确的配置后再验证 |
 
 ## 为什么原来的安装方法失效了
 
-仓库内六个扩展都声明 Manifest V2。根据 [Chrome 官方时间线](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)，Chrome 139 及后续版本不再支持 MV2；2026-08-31，剩余 MV2 扩展也从 Chrome 商店移除。
+使用 Manifest V2 的扩展已不适用于当前 Chrome。根据 [Chrome 官方时间线](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)，Chrome 139 及后续版本不再支持 MV2；2026-08-31，剩余 MV2 扩展也从 Chrome 商店移除。
 
 因此，“开启开发者模式 → 加载已解压扩展 → 重启浏览器”不能作为当前 Chrome 的有效解决方案。原 manifest 中的 `minimum_chrome_version` 只是历史最低版本声明，不会覆盖 MV2 的停用规则。
 
@@ -29,7 +29,7 @@
 
 ## 为什么不能直接把 `2` 改成 `3`
 
-MV3 涉及后台生命周期、权限和请求处理方式变化。对这些旧插件做真正迁移，至少需要检查以下内容：
+MV3 涉及后台生命周期、权限和请求处理方式变化。对 MV2 插件做真正迁移，至少需要检查以下内容：
 
 | 范围 | 需要评估的变化 |
 | --- | --- |
@@ -41,10 +41,10 @@ MV3 涉及后台生命周期、权限和请求处理方式变化。对这些旧�
 | 服务依赖 | 单独验证注册、登录、线路接口和认证协议，前端迁移不会自动修复服务端 |
 | 来源与许可 | 核对第三方代码及依赖的修改和再分发条件 |
 
-参考 [MV3 概览](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3) 与 [官方迁移文档](https://developer.chrome.com/docs/extensions/develop/migrate)。本次仓库更新提供资料与维护工具，尚未完成任何历史扩展的 MV3 移植。
+参考 [MV3 概览](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3) 与 [官方迁移文档](https://developer.chrome.com/docs/extensions/develop/migrate)。本仓库提供工具入口和迁移资料，具体扩展的开发与发布由对应项目维护者负责。
 
 ## 如何提交有效反馈
 
-使用仓库的兼容性反馈模板，提供浏览器版本、扩展目录、复现步骤和已脱敏的错误信息。资源入口失效或版本信息过期，请使用资源更新模板，附上作者官方来源和核查日期。
+使用仓库的兼容性反馈模板，提供浏览器版本、工具名称、复现步骤和已脱敏的错误信息。资源入口失效或版本信息过期，请使用资源更新模板，附上作者官方来源和核查日期。
 
 返回 [项目首页](../README.md) · [贡献指南](../CONTRIBUTING.md)

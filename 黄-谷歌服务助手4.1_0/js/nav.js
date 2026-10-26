@@ -1,1 +1,0 @@
-$("#closetop").click(function(){chrome.runtime.sendMessage({what:"closeTips-top"})}),$(".know").click(function(){chrome.runtime.sendMessage({what:"closeTips-top"})});
