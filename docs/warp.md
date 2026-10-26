@@ -1,7 +1,7 @@
-# Cloudflare WARP 本地代理接入（待实测）
+# Cloudflare WARP 本地代理接入与实测记录
 
 > [!IMPORTANT]
-> **本页为官方资料核查后的接入方案，尚未完成 WARP 客户端与本扩展的端到端实测。**
+> **本机已实测，但 WARP 未能建立连接，尚未验证到可用的 WARP 出口。暂不能将其作为已验证可用的免费线路推荐。**
 > WARP 需要另外安装并在你的网络中成功连接。它不是扩展内置线路；免费不代表任何地区或网络都保证可用。
 
 核查日期：**2026-10-26**。
@@ -11,16 +11,24 @@
 | 项目 | 结果 |
 | --- | --- |
 | 官方协议说明 | 已核对桌面 Local proxy 与 SOCKS5 支持 |
-| macOS 安装包 | 从官方入口下载 `2026.8.2115.0`；Apple 开发者安装签名与公证校验通过，签名主体为 Cloudflare Inc. |
+| 环境与安装包 | macOS `26.5.2`，官方客户端 `2026.8.2115.0`；Apple 开发者安装签名与公证校验通过，签名主体为 Cloudflare Inc.；安装完成 |
 | 配置示例 | 已通过本扩展实际配置解析器校验，生成预期的 SOCKS5 PAC 指令 |
-| WARP 安装、连接及出口 | 尚未测试；当前机器未安装客户端 |
-| 扩展与 WARP 端到端配合 | 尚未测试 |
+| 本地代理设置 | 客户端确认 `WarpProxy on port 40000` |
+| WARP 连接 | 默认 MASQUE（HTTP/3 带 HTTP/2 后备）与显式 `h2-only` 均返回 `Unable / Failed to perform happy eyeballs` |
+| SOCKS5 监听与探测 | 失败时 `127.0.0.1:40000` 无监听；curl 连接失败，退出码 `7` |
+| 扩展实际配置 | 独立 Chromium 中 Google 域名 PAC、全部网站 SOCKS5 配置及释放设置均通过 |
+| 浏览器经 WARP 访问 trace | 失败，`net::ERR_PROXY_CONNECTION_FAILED`；没有获得 `warp=on` |
+| 对照检查 | 同机直接访问 Cloudflare trace 成功，返回 `warp=off` |
+
+失败发生在 WARP 客户端连接阶段；本次未确定具体的网络或设备原因，也不能将这个结果推广为所有网络都无法使用 WARP。配置可以应用到浏览器，不代表代理服务已经建立连接。
+
+测试结束后已断开 WARP，并将临时的 HTTP/2-only 设置恢复为客户端默认值；没有保留连接重试状态。
 
 ## 适用方案
 
 Cloudflare 官方区分免费的 WARP 和付费的 WARP+。WARP 桌面客户端支持 Local proxy 模式，通过本机监听端口向指定应用提供代理；官方文档列出了 SOCKS5 支持。
 
-本扩展支持 SOCKS5 代理配置，因此从协议与配置接口看，两者可以通过本地代理模式配合。该兼容判断依据官方文档，不能替代实际客户端与出口测试。
+本扩展支持 SOCKS5 代理配置，因此从协议与配置接口看，两者可以通过本地代理模式配合。本次实测确认了配置应用，但由于 WARP 未能连通，尚未完成成功的隧道与网页转发验证。
 
 这里使用的是 **WARP 桌面客户端**，不是把 Cloudflare Workers 地址直接填写为代理服务器，也不需要将 Cloudflare 账号、WARP+ 密钥或 Zero Trust 注册凭据导入本扩展。
 
@@ -32,6 +40,19 @@ Cloudflare 官方区分免费的 WARP 和付费的 WARP+。WARP 桌面客户端�
 4. 选择 Local proxy 模式并连接 WARP。不同版本的菜单名称可能变化，以当前客户端及其官方文档为准。
 
 本指南只配置指定应用使用的本地代理。请确认实际使用的是 Local proxy 模式；WARP 的其他模式可能接管整个设备的流量或 DNS。
+
+### 已核对的命令行设置
+
+本次客户端版本的命令行帮助确认了以下命令；先按官方客户端流程完成初始化与必要授权，再执行：
+
+```bash
+warp-cli mode proxy
+warp-cli proxy port 40000
+warp-cli connect
+warp-cli status
+```
+
+`mode proxy` 和 `proxy port 40000` 本机返回成功，但 `connect` 返回成功只表示连接请求已提交。仍需检查后续 `status`；本次后续状态为 `Unable`，不能将请求提交成功当作连接成功。
 
 ## 配置扩展
 
@@ -60,7 +81,7 @@ Cloudflare 官方区分免费的 WARP 和付费的 WARP+。WARP 桌面客户端�
 4. 若需确认 WARP 出口，可将扩展临时设为“全部网站”，再访问 [Cloudflare trace](https://www.cloudflare.com/cdn-cgi/trace) 查看 `warp=on`；“仅 Google 服务”模式不会将这个 Cloudflare 域名送入代理，不能据此检查 WARP 出口。
 5. 验证结束后恢复需要的访问范围，或点击“停用代理”释放本扩展的设置。
 
-`warp=on` 的检查方法来自 Cloudflare 官方连接验证说明。本页尚未在当前机器得到这个结果，不能将此步骤描述为已通过的验证。
+`warp=on` 的检查方法来自 Cloudflare 官方连接验证说明。本次未在当前机器得到这个结果，出口连通性验证未通过。
 
 ## 常见问题
 
