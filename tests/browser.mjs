@@ -74,8 +74,10 @@ try {
     assert.equal(applied.data.matchesSaved, true);
   }
   const beforeInvalid = await worker.evaluate(() => chrome.proxy.settings.get({ incognito: false }));
-  const invalid = await page.evaluate(() => chrome.runtime.sendMessage({ type: 'apply', profile: { scheme: 'http', host: '127.000.000.001', port: 7890, scope: 'all' } }));
-  assert.equal(invalid.ok, false);
+  for (const host of ['127.000.000.001', '0x7f.0.0.1', '0x7f000001']) {
+    const invalid = await page.evaluate(host => chrome.runtime.sendMessage({ type: 'apply', profile: { scheme: 'http', host, port: 7890, scope: 'all' } }), host);
+    assert.equal(invalid.ok, false);
+  }
   assert.deepEqual(await worker.evaluate(() => chrome.proxy.settings.get({ incognito: false })), beforeInvalid);
   await page.evaluate(() => chrome.runtime.sendMessage({ type: 'disable' }));
   await page.reload();

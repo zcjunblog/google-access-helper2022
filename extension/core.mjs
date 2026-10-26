@@ -36,6 +36,12 @@ export function normalizeProfile(input) {
         host.split('.').every(part => (part === '0' || !part.startsWith('0')) && Number(part) <= 255))) {
       throw new Error('IPv4 地址需使用四段十进制数字，不要添加前导零。');
     }
+    // URL parsing also recognizes hexadecimal IPv4 aliases; do not let Chrome
+    // silently rewrite an address after we have stored and displayed it.
+    let canonical;
+    try { canonical = new URL(`http://${host}/`).hostname; }
+    catch { throw new Error('代理地址格式无效，请填写规范的域名或 IP。'); }
+    if (canonical !== host) throw new Error('请使用规范的域名或四段十进制 IPv4 地址。');
   }
   const rawPort = typeof input.port === 'string' ? input.port.trim() : input.port;
   if ((typeof rawPort !== 'number' && !(typeof rawPort === 'string' && /^\d+$/.test(rawPort))) ||

@@ -15,6 +15,7 @@ test('normalizes valid input and rejects addresses that can inject PAC or embed 
     { host: 'https://example.com' }, { host: 'host/path' }, { host: 'a b' },
     { host: 'a";return "DIRECT' }, { host: 'a\n.example' }, { host: '999.1.1.1' },
     { host: '127.000.000.001' }, { host: '0177.0.0.1' },
+    { host: '0x7f.0.0.1' }, { host: '0x7f000001' },
   ]) assert.throws(() => normalizeProfile({ ...profile, ...change }), undefined, JSON.stringify(change));
 });
 
