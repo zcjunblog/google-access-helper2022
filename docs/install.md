@@ -2,7 +2,7 @@
 
 ## 安装扩展
 
-1. 从 [官方 Releases](https://github.com/zcjunblog/google-access-helper2022/releases/latest) 下载 `google-access-helper-1.0.0.zip`。
+1. 从 [官方 Releases](https://github.com/zcjunblog/google-access-helper-mv3/releases/latest) 下载 `google-access-helper-1.0.0.zip`。
 2. 解压后得到 `google-access-helper` 文件夹，确认里面直接有 `manifest.json`、`popup.html` 等文件。
 3. 在 Chrome 地址栏打开 `chrome://extensions/`，开启右上角“开发者模式”。
 4. 点击“加载已解压的扩展程序”，选择上一步的文件夹。

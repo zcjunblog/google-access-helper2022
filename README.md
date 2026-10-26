@@ -1,4 +1,4 @@
-# Google Access Helper
+# Google Access Helper · MV3 浏览器代理助手
 
 > [!IMPORTANT]
 > **使用前必读：需要自备可用的代理服务或本地代理软件。**
@@ -9,10 +9,10 @@
 
 **可直接安装的 Chrome MV3 扩展：代理配置、Google 服务入口与连接诊断。**
 
-[![Stars](https://img.shields.io/github/stars/zcjunblog/google-access-helper2022?style=flat)](https://github.com/zcjunblog/google-access-helper2022/stargazers)
-[![Checks](https://github.com/zcjunblog/google-access-helper2022/actions/workflows/extension.yml/badge.svg)](https://github.com/zcjunblog/google-access-helper2022/actions/workflows/extension.yml)
+[![Stars](https://img.shields.io/github/stars/zcjunblog/google-access-helper-mv3?style=flat)](https://github.com/zcjunblog/google-access-helper-mv3/stargazers)
+[![Checks](https://github.com/zcjunblog/google-access-helper-mv3/actions/workflows/extension.yml/badge.svg)](https://github.com/zcjunblog/google-access-helper-mv3/actions/workflows/extension.yml)
 
-[下载安装包](https://github.com/zcjunblog/google-access-helper2022/releases/latest) · [安装与使用](docs/install.md) · [隐私与权限](docs/privacy.md) · [实现与测试](docs/development.md) · [更新记录](CHANGELOG.md)
+[下载安装包](https://github.com/zcjunblog/google-access-helper-mv3/releases/latest) · [安装与使用](docs/install.md) · [隐私与权限](docs/privacy.md) · [实现与测试](docs/development.md) · [更新记录](CHANGELOG.md)
 
 一个无需构建、没有运行时依赖的浏览器助手。打开扩展即可使用 Google 搜索、Gmail、地图、学术和应用商店入口；填写已有代理信息后，可以保存配置、启停代理、切换访问范围并按需检查服务连接。
 
@@ -22,7 +22,7 @@
 
 ## 下载安装
 
-1. 在 [Releases](https://github.com/zcjunblog/google-access-helper2022/releases/latest) 下载 `google-access-helper-1.0.0.zip` 并解压。
+1. 在 [Releases](https://github.com/zcjunblog/google-access-helper-mv3/releases/latest) 下载 `google-access-helper-1.0.0.zip` 并解压。
 2. 在 Chrome 打开 `chrome://extensions/`，开启右上角的**开发者模式**。
 3. 点击**加载已解压的扩展程序**，选择解压出的 `google-access-helper` 文件夹。
 4. 点击浏览器工具栏中的扩展图标即可使用。
