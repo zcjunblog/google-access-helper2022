@@ -1,5 +1,12 @@
 # Google Access Helper
 
+> [!IMPORTANT]
+> **使用前必读：需要自备可用的代理服务或本地代理软件。**
+>
+> 请填写你自己的代理协议、地址和端口。**本扩展不提供代理服务器、线路、节点、账号或订阅；仅下载安装扩展，不会自动获得访问 Google 的能力。**
+>
+> 默认的 `127.0.0.1:7890` 只是配置示例，不是内置可用服务，请以你实际使用的代理软件或服务提供的信息为准。
+
 **可直接安装的 Chrome MV3 扩展：代理配置、Google 服务入口与连接诊断。**
 
 [![Stars](https://img.shields.io/github/stars/zcjunblog/google-access-helper2022?style=flat)](https://github.com/zcjunblog/google-access-helper2022/stargazers)
